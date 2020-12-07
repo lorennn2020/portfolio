@@ -1,0 +1,12 @@
+*:focus{
+    outline: transparent;
+}
+::selection{
+    background: #eee;
+}
+html,
+body {
+    font-family: 'Noto Sans TC', sans-serif;
+    color: #333;
+    background-color: #f2f2f2;
+}

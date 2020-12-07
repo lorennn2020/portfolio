@@ -1,0 +1,132 @@
+@charset "utf-8";
+/* -------------字體引用-------------- */
+@font-face {
+    font-family: 'Moon-R';
+    font-display: swap;
+    src: url(../font/Moon2.0-Regular/Moon2.0-Regular.eot?#iefix) format('embedded-opentype'),
+         url(../font/Moon2.0-Regular/Moon2.0-Regular.ttf) format('TrueType'),
+         url(../font/Moon2.0-Regular/Moon2.0-Regular.woff) format('woff'),
+         url(../font/Moon2.0-Regular/Moon2.0-Regular.woff2) format('woff2');
+}
+@font-face {
+    font-family: 'Moon-L';
+    font-display: swap;
+    src: url(../font/Moon2.0-Light/Moon2.0-Light.eot?#iefix) format('embedded-opentype'),
+         url(../font/Moon2.0-Light/Moon2.0-Light.ttf) format('TrueType'),
+         url(../font/Moon2.0-Light/Moon2.0-Light.woff) format('woff'),
+         url(../font/Moon2.0-Light/Moon2.0-Light.woff2) format('woff2');
+}
+@font-face {
+    font-family: 'Affogato-B';
+    font-display: swap;
+    src: url(../font/Affogato-Bold/Affogato-Bold.eot?#iefix) format('embedded-opentype'),
+         url(../font/Affogato-Bold/Affogato-Bold.ttf) format('TrueType'),
+         url(../font/Affogato-Bold/Affogato-Bold.woff) format('woff'),
+         url(../font/Affogato-Bold/Affogato-Bold.woff2) format('woff2');
+}
+/* font-family */
+.font-JH {
+    font-family: 'Microsoft JhengHei', sans-serif; /* 正黑 */
+}
+.font-NotoSans {
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+.font-Arial {
+    font-family: 'Arial', sans-serif; /* 正黑 */
+}
+.font-Moon-R {
+    font-family: 'Moon-R','Microsoft JhengHei';
+}
+.font-Moon-L {
+    font-family: 'Moon-L','Microsoft JhengHei';
+}
+.font-Affogato-B {
+    font-family: 'Affogato-B','Microsoft JhengHei';
+}
+
+
+/* font-color */
+.font-fff {
+    color: #fff;
+}
+.font-fff-07 {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.font-333 {
+    color: #333;
+}
+.font-686868 {
+    color: #686868;
+}
+.font-a3a3a3 {
+    color: #a3a3a3;
+}
+
+.font-acacac {
+    color: #acacac;
+}
+
+.font-e8cfa8 {
+    color: #e8cfa8;
+}
+
+
+/* font-size */
+.fz-13 {
+    font-size: 13px;
+}
+.fz-14 {
+    font-size: 14px;
+}
+.fz-16 {
+    font-size: 16px;
+}
+.fz-20 {
+    font-size: 20px;
+}
+.fz-22 {
+    font-size: 22px;
+}
+.fz-24 {
+    font-size: 24px;
+}
+.fz-25 {
+    font-size: 25px;
+}
+.fz-30 {
+    font-size: 30px;
+}
+.fz-105 {
+    font-size: 105px;
+}
+
+
+
+
+.fw-lighter {
+    font-weight: lighter;
+}
+.fw-normal {
+    font-weight: normal;
+}
+.fw-bold {
+    font-weight: bold;
+}
+
+.ls-05{
+    letter-spacing: 0.5px;
+}
+.ls-1{
+    letter-spacing: 1px;
+}
+.ls-2{
+    letter-spacing: 2px;
+}
+
+@media only screen and (max-width: 767px){
+    .font-Moon-L {
+        font-family: 'Moon-R','Microsoft JhengHei';
+    }
+}
