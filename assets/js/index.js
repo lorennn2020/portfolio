@@ -36,14 +36,30 @@ jQuery(document).ready(function() {
     //     $('body').toggleClass('atSec2');
     // });
 
+
+    // sec1 lightbox
+    // 開啟彈窗
+    $('.js_sec1_lightbox_btn').click(function(){
+        let index = $(this).index();
+        $('.js_sec1_lightbox').eq(index).toggleClass('active');
+        $('body , .sec1').toggleClass('lightbox_open');
+    });
+
+    // 關閉彈窗
+    $('.js_sec1_lightbox_wrap,.js_sec1_lightbox_close').click(function(){
+        $('.js_sec1_lightbox').removeClass('active');
+        $('body , .sec1').removeClass('lightbox_open');
+    });
+
     // sec1 swiper
     if ($(window).width() < 992){
         var mainSwiper = new Swiper('.swiper-container-sec1', {
             direction : 'horizontal',
             slidesPerView: 3,
-            mousewheel : {
-                releaseOnEdges: true,  //可修正mousewheel捲動失效問題
-            },
+            mousewheel : false,
+            // mousewheel : {
+            //     releaseOnEdges: true,  //可修正mousewheel捲動失效問題
+            // },
             centeredSlides: true,
             spaceBetween : 8,
             autoplay : true,
@@ -62,13 +78,16 @@ jQuery(document).ready(function() {
         });
     }else{
         var mainSwiper = new Swiper('.swiper-container-sec1', {
-            direction: 'vertical',
-            slidesPerView:'auto',
-            mousewheel : {
-                releaseOnEdges: true,  //可修正mousewheel捲動失效問題
-            },
+            // direction: 'vertical',
+            direction: 'horizontal',
+            // slidesPerView:'auto',
+            slidesPerView: 6,
+            mousewheel : false,
+            // mousewheel : {
+            //     releaseOnEdges: true,  //可修正mousewheel捲動失效問題
+            // },
             centeredSlides: false,
-            spaceBetween : 20,
+            spaceBetween : 50,
             autoplay : true,
             speed:1500,
             keyboard : true,
@@ -83,11 +102,34 @@ jQuery(document).ready(function() {
             observer:true,
             observeParents:true,
         });
+
+        // 點開作品時禁止滾動
+        $(".sec1_swiper .swiper-slide").click(function () {
+            $scrollTop = $(window).scrollTop();
+            if ($("body").hasClass("lightbox_open") == true) {
+                // 強制window滾動條的高度
+                $(window).scroll($scrollTop);
+            }    
+        })
+        
+        
+        // $(function () {
+        //     var scrollTop = -1; // 滑鼠進入到區域後，則儲存當前window滾動條的高度
+        //     $('#sec2').hover(function(){
+        //         scrollTop = $(window).scrollTop();
+        //         }, function(){
+        //         scrollTop = -1;
+        //     });
+        //     // 滑鼠進入到區域後，則強制window滾動條的高度
+        //     $(window).scroll(function(){
+        //         scrollTop!==-1 && $(this).scrollTop(scrollTop);
+        //     })
+        // })
     }
     // 當視窗有任何調整重整swiper
-    $(window).resize(function() {
-        location.reload();
-    });
+    // $(window).resize(function() {
+    //     location.reload();
+    // });
 
     // UIUX FD 亂碼
     // 抽取陣列中隨機字符
@@ -163,17 +205,4 @@ jQuery(document).ready(function() {
         
     }, 4000);
 
-    // sec1 lightbox
-    // 開啟彈窗
-    $('.js_sec1_lightbox_btn').click(function(){
-        let index = $(this).index();
-        $('.js_sec1_lightbox').eq(index).toggleClass('active');
-        $('.sec1').toggleClass('lightbox_open');
-    });
-
-    // 關閉彈窗
-    $('.js_sec1_lightbox_wrap,.js_sec1_lightbox_close').click(function(){
-        $('.js_sec1_lightbox').removeClass('active');
-        $('.sec1').removeClass('lightbox_open');
-    });
 });
