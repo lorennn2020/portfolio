@@ -86,7 +86,7 @@ jQuery(document).ready(function() {
             // mousewheel : {
             //     releaseOnEdges: true,  //可修正mousewheel捲動失效問題
             // },
-            centeredSlides: false,
+            centeredSlides: true,
             spaceBetween : 50,
             autoplay : true,
             speed:1500,

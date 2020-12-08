@@ -544,14 +544,14 @@ body.lightbox_open .sec1_header .header_maintitle{
     background: -moz-linear-gradient(to top, rgba(242, 242, 242, 1) 20%,rgba(242, 242, 242, 0) 100%);
     background: -o-linear-gradient(to top, rgba(242, 242, 242, 1) 20%,rgba(242, 242, 242, 0) 100%);
     background: linear-gradient(to top, rgba(242, 242, 242, 1) 20%,rgba(242, 242, 242, 0) 100%); */
-    right: calc(50% - 160px);
+    right: calc(50% - 190px);
 }
 .swiper-button-prev-sec1{
     /* background: -webkit-linear-gradient(to bottom, rgba(242, 242, 242, 1) 20%,rgba(242, 242, 242, 0) 100%);
     background: -moz-linear-gradient(to bottom, rgba(242, 242, 242, 1) 20%,rgba(242, 242, 242, 0) 100%);
     background: -o-linear-gradient(to bottom, rgba(242, 242, 242, 1) 20%,rgba(242, 242, 242, 0) 100%);
     background: linear-gradient(to bottom, rgba(242, 242, 242, 1) 20%,rgba(242, 242, 242, 0) 100%); */
-    left: calc(50% - 160px);
+    left: calc(50% - 190px);
 }
 .swiper-button-prev-sec1::before,.swiper-button-next-sec1::before{
     position: relative;
