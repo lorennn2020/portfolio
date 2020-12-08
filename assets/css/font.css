@@ -71,6 +71,9 @@
 .font-e8cfa8 {
     color: #e8cfa8;
 }
+.font-2c7a99 {
+    color: #2c7a99;
+}
 
 
 /* font-size */
@@ -110,6 +113,9 @@
 }
 .fw-normal {
     font-weight: normal;
+}
+.fw-bold {
+    font-weight: bold;
 }
 .fw-bold {
     font-weight: bold;

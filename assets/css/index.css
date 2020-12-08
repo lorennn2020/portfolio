@@ -1,10 +1,10 @@
 html,
 body {
     font-family: 'Noto Sans TC', sans-serif;
-    height: 100vh;
-    -ms-overflow-y: hidden;
+    /* height: 100vh; */
+    /* -ms-overflow-y: hidden;
     -ms-overflow-x: hidden;
-    overflow: hidden;
+    overflow: hidden; */
     color: #333;
     -webkit-transition: transform 0.6s cubic-bezier(0.215, 0.61, 0.355, 1);
     -moz-transition: transform 0.6s cubic-bezier(0.215, 0.61, 0.355, 1);
@@ -32,11 +32,17 @@ body {
     display: -ms-flexbox;
     display: -webkit-flex;
     display: flex;
-    -webkit-box-pack: justify;
+    -webkit-box-pack: end;
+    -moz-box-pack: end;
+    -ms-flex-pack: end;
+    -webkit-box-pack: flex-end;
+    -webkit-justify-content: flex-end;
+    justify-content: flex-end;
+    /* -webkit-box-pack: justify;
     -moz-box-pack: justify;
     -ms-flex-pack: justify;
     -webkit-justify-content: space-between;
-    justify-content: space-between;
+    justify-content: space-between; */
     -webkit-box-align: center;
     -ms-flex-align: center;
     -webkit-align-items: center;
@@ -751,7 +757,7 @@ body {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    background-color: #424242;
+    background-color: #e6e6e6;
 }
 .sec2_close{
     position: absolute;
