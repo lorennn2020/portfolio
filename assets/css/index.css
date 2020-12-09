@@ -23,6 +23,22 @@ body {
     transition: all 0.4s ease-out;
 }
 
+.sec_banner{
+    height: 90vh;
+}
+.sec_banner .brief{
+    position: absolute;
+    width: 30%;
+    right: 7%;
+    line-height: 35px;
+    letter-spacing: 0.5px;
+    bottom: 25%;
+}
+.sec_banner .brief span{
+    display: block;
+    padding-bottom: 20px;
+}
+
 /* header */
 .sec1_header{
     position: fixed;
@@ -61,7 +77,8 @@ body {
 }
 .sec1_header .header_maintitle{
     position: absolute;
-    top: -95px;
+    /* top: -95px; */
+    top: -3px;
     left: 52px;
 }
 body.lightbox_open .sec1_header .header_maintitle{
@@ -71,12 +88,16 @@ body.lightbox_open .sec1_header .header_maintitle{
     color: rgba(255, 255, 255, 0.2);
 }
 .sec1_header .maintitle_en{
-    letter-spacing: 12px;
+    letter-spacing: 10px;
     line-height: 55px;
+    vertical-align: middle;
+    opacity: 0.4;
 }
 .sec1_header .maintitle_zh{
-    letter-spacing: 4px;
-    opacity: 0.7;
+    letter-spacing: 3px;
+    margin-right: 15px;
+    vertical-align: middle;
+    opacity: 0.6;
 }
 .sec1_header .header_about{
     padding: 3px 14px 4px 14px;
@@ -163,17 +184,17 @@ body.lightbox_open .sec1_header .header_maintitle{
 /* ----- sec1 ----- */
 .sec1 {
     position: relative;
-    height: 100vh;
+    padding: 100px 5% 200px 5%;
     background-color: #f2f2f2;
-    -ms-overflow-y: hidden;
+    /* -ms-overflow-y: hidden;
     -ms-overflow-x: hidden;
-    overflow: hidden;
+    overflow: hidden; */
 }
 /* svg */
 .sec1_svg{
     position: relative;
     width: 20%;
-    margin-left: 24%;
+    margin-left: 14%;
     -webkit-animation: intoGround 25s ease infinite both;
     -moz-animation: intoGround 25s ease infinite both;
     -ms-animation: intoGround 25s ease infinite both;
@@ -508,10 +529,36 @@ body.lightbox_open .sec1_header .header_maintitle{
     line-height: 18px;
     opacity: 0;
     pointer-events: none;
+    letter-spacing: 0.5px;
 }
 .sec1_swiper .swiper-slide img{
     width: 100%;
     border-radius: 10px;
+}
+.sec1_swiper .swiper-slide::after{
+    position: relative;
+    display: block;
+    content: '・';
+    font-size: 20px;
+    color: #e4e4e4;
+    text-align: center;
+    padding-top: 20px;
+}
+.sec1_swiper .swiper-slide.online::after{
+    font-size: 20px;
+    color: #0fda5d;
+    text-shadow: #00ff62 0px 0px 5px;
+}
+.sec1_swiper .swiper-slide.online::before{
+    position: absolute;
+    bottom: -13px;
+    content: '上線中';
+    font-size: 12px;
+    color: rgb(15,218,93,0.6);
+    text-align: center;
+    left: 0;
+    right: 0;
+    letter-spacing: 0.2px;
 }
 .swiper-pagination-sec1.swiper-pagination-bullets{
     position: absolute;
@@ -535,7 +582,7 @@ body.lightbox_open .sec1_header .header_maintitle{
 .swiper-button-next-sec1{
     position: absolute;
     padding: 12px 18px;
-    bottom: -100px;
+    bottom: -97px;
     z-index: 2;
     cursor: pointer;
 }
@@ -557,8 +604,8 @@ body.lightbox_open .sec1_header .header_maintitle{
     position: relative;
     display: block;
     content: '';
-    width: 15px;
-    height: 26px;
+    width: 9px;
+    height: 16px;
     margin: auto;
     background-size: cover;
 }
@@ -575,10 +622,10 @@ body.lightbox_open .sec1_header .header_maintitle{
 }
 .sec1_lightbox{
     position: absolute;
-    width: calc(100% - 450px);
+    width: calc(100% - 200px);
     top: 0;
     left: 0;
-    margin: 0 240px 0 140px;
+    margin: 0 60px 0 140px;
     opacity: 0;
     z-index: -1;
 }
@@ -594,24 +641,26 @@ body.lightbox_open .sec1_header .header_maintitle{
 }
 .sec1_lightbox .lightbox_info .info_title{
     display: inline-block;
-    padding: 4px 20px;
-    border: 1px solid rgba(163, 163, 163, 0.5);
-    background-image: -webkit-linear-gradient(60deg, #fff 0%,#fff 70%,transparent 70.0001%);
-    background-image: -moz-linear-gradient(60deg, #fff 0%,#fff 70%,transparent 70.0001%);
-    background-image: -o-linear-gradient(60deg, #fff 0%,#fff 70%,transparent 70.0001%);
-    background-image: linear-gradient(60deg, #fff 0%,#fff 70%,transparent 70.0001%);
     margin-bottom: 15px;
     letter-spacing: 2px;
+    background: #469abb;
+    color: #fff;
+    padding: 5px 10px;
 }
 .sec1_lightbox .lightbox_info .info_cont{
     padding: 5px 0 10px 0;
-    line-height: 24px;
-    text-indent: 16px;
+    line-height: 30px;
+    /* text-indent: 16px; */
+    font-size: 16px;
+    letter-spacing: .5px;
 }
 .sec1_lightbox .lightbox_info .info_tag,
 .sec1_lightbox .lightbox_info .info_link{
     line-height: 26px;
     letter-spacing: 0.5px;
+}
+.sec1_lightbox .lightbox_info .info_tag{
+    font-size: 14px;
 }
 .sec1_lightbox .lightbox_info .info_link{
     display: inline-block;
@@ -761,14 +810,14 @@ body.lightbox_open .sec1_header .header_maintitle{
     top: 0;
     left: 0;
     z-index: 4;
-    background-color: rgb(255 255 255 / 0.9);
+    background-color: rgb(255,255,255,0.95);
 }
 .sec1.lightbox_open .sec1_lightbox_close{
     display: block;
 }
 /* 作品彈窗 end */
 /* ----- sec1 ----- end */
-/* ----- sec2 end ----- */
+/* ----- sec2 ----- */
 .sec2 {
     position: relative;
     /* height: 100vh; */
@@ -827,6 +876,9 @@ body.lightbox_open .sec1_header .header_maintitle{
     display: block;
     line-height: 24px;
 }
+.sec2 .cont_text i{
+    padding-left: 5px;
+}
 .sec2_wrap{
     width: 55%;
     padding-top: 100px;
@@ -844,11 +896,12 @@ body.lightbox_open .sec1_header .header_maintitle{
 .sec2_exper{
     line-height: 28px;
     padding-bottom: 200px;
+    letter-spacing: 0.5px;
 }
 .sec2_exper .exper_job{
     position: relative;
     width: calc(100% - 80px);
-    padding-bottom: 40px;
+    padding-bottom: 20px;
 }
 .sec2_exper .exper_job:not(:last-child)::after{
     position: relative;
@@ -857,7 +910,7 @@ body.lightbox_open .sec1_header .header_maintitle{
     width: calc(100% + 80px);
     height: 1px;
     background-color: rgba(44, 122, 153, 0.2);
-    margin-top: 50px;
+    margin-top: 30px;
 }
 .sec2_exper .exper_job .job_img{
     position: absolute;
@@ -872,11 +925,19 @@ body.lightbox_open .sec1_header .header_maintitle{
     padding-bottom: 5px;
     letter-spacing: 1.5px;
 }
+.sec2_exper .job_cont{
+    line-height: 24px;
+    padding-top: 8px;
+}
+.sec2_exper .job_cont a{
+    color: #2c7a99;
+}
 .sec2_exper .job_comp::before{
     display: inline-block;
-    content: '|';
+    content: '/';
     margin: 0 8px;
     opacity: 0.5;
+    color: #2c7a99;
 }
 .sec2_exper .job_link{
     color: #2c7a99;
@@ -893,6 +954,30 @@ body.lightbox_open .sec1_header .header_maintitle{
     margin-right: 5px;
 }
 /* ----- sec2 ----- end */
+/* ----- sec3 ----- */
+.sec3 {
+    position: relative;
+    /* height: 100vh; */
+    height: auto;
+    padding: 0 5% 0 5%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background-color: #646464;
+}
+/* ----- sec2 ----- end */
+/* ----- sec4 ----- */
+.sec4 {
+    position: relative;
+    /* height: 100vh; */
+    height: auto;
+    padding: 0 5% 0 5%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background-color: #e6e6e6;
+}
+/* ----- sec4 ----- end */
 
 @media only screen and (min-width: 992px){
     .sec1_header .header_about,
@@ -955,6 +1040,9 @@ body.lightbox_open .sec1_header .header_maintitle{
         opacity: 1;
     } */
 
+    .sec1_lightbox .lightbox_info .info_link:hover{
+        color: #2c7a99;
+    }
     /* ----- sec1 ----- end */
     /* ----- sec2 ----- */
     /* ----- sec2 end ----- */

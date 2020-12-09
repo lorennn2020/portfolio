@@ -1,4 +1,12 @@
 jQuery(document).ready(function() {
+
+    wow = new WOW({
+        animateClass: 'animated',
+        offset: 100,
+        callback: function (box) {
+            console.log("WOW: animating <" + box.tagName.toLowerCase() + ">")
+        }
+    }); wow.init();
     // var isChrome = window.navigator.userAgent.indexOf('Chrome') !== -1;
     // // console.log(isChrome);
     // if (isChrome) {
