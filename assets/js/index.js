@@ -53,29 +53,32 @@ jQuery(document).ready(function() {
 
     // sec1 swiper
     if ($(window).width() < 992){
-        var mainSwiper = new Swiper('.swiper-container-sec1', {
-            direction : 'horizontal',
-            slidesPerView: 3,
-            mousewheel : false,
-            // mousewheel : {
-            //     releaseOnEdges: true,  //可修正mousewheel捲動失效問題
-            // },
-            centeredSlides: true,
-            spaceBetween : 8,
-            autoplay : true,
-            speed:1500,
-            keyboard : true,
-            pagination: {
-            el: '.swiper-pagination-sec1',
-            clickable:true,
-            },
-            navigation: {
-            nextEl: '.swiper-button-next-sec1',
-            prevEl: '.swiper-button-prev-sec1',
-            },
-            observer:true,
-            observeParents:true,
-        });
+        $("body").hide();
+        alert("手機版更新中，請使用電腦版開啟獲得的最佳體驗！");
+
+        // var mainSwiper = new Swiper('.swiper-container-sec1', {
+        //     direction : 'horizontal',
+        //     slidesPerView: 3,
+        //     mousewheel : false,
+        //     // mousewheel : {
+        //     //     releaseOnEdges: true,  //可修正mousewheel捲動失效問題
+        //     // },
+        //     centeredSlides: true,
+        //     spaceBetween : 8,
+        //     autoplay : true,
+        //     speed:1500,
+        //     keyboard : true,
+        //     pagination: {
+        //     el: '.swiper-pagination-sec1',
+        //     clickable:true,
+        //     },
+        //     navigation: {
+        //     nextEl: '.swiper-button-next-sec1',
+        //     prevEl: '.swiper-button-prev-sec1',
+        //     },
+        //     observer:true,
+        //     observeParents:true,
+        // });
     }else{
         var mainSwiper = new Swiper('.swiper-container-sec1', {
             // direction: 'vertical',
@@ -86,7 +89,7 @@ jQuery(document).ready(function() {
             // mousewheel : {
             //     releaseOnEdges: true,  //可修正mousewheel捲動失效問題
             // },
-            centeredSlides: true,
+            centeredSlides: false,
             spaceBetween : 50,
             autoplay : true,
             speed:1500,
@@ -111,25 +114,23 @@ jQuery(document).ready(function() {
                 $(window).scroll($scrollTop);
             }    
         })
+
+        // hover影片時自動播放
+        $(".video_wrap video").mouseover(function(){
+            $(this).get(0).play();
+        }).mouseout(function(){
+            $(this).get(0).pause();
+        })
         
-        
-        // $(function () {
-        //     var scrollTop = -1; // 滑鼠進入到區域後，則儲存當前window滾動條的高度
-        //     $('#sec2').hover(function(){
-        //         scrollTop = $(window).scrollTop();
-        //         }, function(){
-        //         scrollTop = -1;
-        //     });
-        //     // 滑鼠進入到區域後，則強制window滾動條的高度
-        //     $(window).scroll(function(){
-        //         scrollTop!==-1 && $(this).scrollTop(scrollTop);
-        //     })
-        // })
+        //  下載CV
+        $('.cv_img').click(function() {
+            $('.cv_text').text('下載成功！')
+        });
     }
     // 當視窗有任何調整重整swiper
-    // $(window).resize(function() {
-    //     location.reload();
-    // });
+    $(window).resize(function() {
+        location.reload();
+    });
 
     // UIUX FD 亂碼
     // 抽取陣列中隨機字符
