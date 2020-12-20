@@ -84,15 +84,15 @@ jQuery(document).ready(function() {
             // direction: 'vertical',
             direction: 'horizontal',
             // slidesPerView:'auto',
-            slidesPerView: 6,
+            slidesPerView: 4,
             mousewheel : false,
             // mousewheel : {
             //     releaseOnEdges: true,  //可修正mousewheel捲動失效問題
             // },
             centeredSlides: false,
             spaceBetween : 50,
-            autoplay : true,
-            speed:1500,
+            // autoplay : true,
+            // speed:1500,
             keyboard : true,
             pagination: {
             el: '.swiper-pagination-sec1',
