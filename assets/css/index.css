@@ -508,6 +508,7 @@ body.lightbox_open .sec1_header .header_maintitle{
     -ms-overflow-y: hidden;
     -ms-overflow-x: hidden;
     overflow: hidden;
+    border-radius: 5px;
 }
 .sec1_swiper .swiper-slide .slide_text{
     position: absolute;
@@ -554,7 +555,7 @@ body.lightbox_open .sec1_header .header_maintitle{
 .sec1_swiper .swiper-slide.online::before{
     position: absolute;
     bottom: -13px;
-    content: '上線中';
+    /* content: '上線中'; */
     font-size: 12px;
     color: rgb(15,218,93,0.6);
     text-align: center;
@@ -616,6 +617,9 @@ body.lightbox_open .sec1_header .header_maintitle{
 }
 .swiper-button-prev-sec1::before{
     background-image: url(../images/icon/swiper_prev.png);
+}
+div.swiper-button-disabled{
+    opacity: 0.4;
 }
 /* swiper end */
 /* 作品彈窗 */
@@ -1486,10 +1490,6 @@ body.lightbox_open .sec1_header .header_maintitle{
     }
     .sec1_svg .svg_text{
         width: 100%;
-    }
-    .swiper-button-next-sec1,
-    .swiper-button-prev-sec1{
-        opacity: 0.7;
     }
     .swiper-button-next-sec1:hover,
     .swiper-button-prev-sec1:hover{
