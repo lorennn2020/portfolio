@@ -123,8 +123,8 @@
 .fw-normal {
     font-weight: normal;
 }
-.fw-bold {
-    font-weight: bold;
+.fw-500 {
+    font-weight: 500;
 }
 .fw-bold {
     font-weight: bold;
@@ -137,6 +137,9 @@
 }
 .ls-2{
     letter-spacing: 2px;
+}
+.ls-5{
+    letter-spacing: 5px;
 }
 
 @media only screen and (max-width: 767px){

@@ -17,7 +17,8 @@ body {
 .sec1,
 .sec1_lightbox,.sec1_header,.sec1_swiper,
 .sec1_header .header_maintitle,
-.sec1_header .header_about::after{
+.sec1_header .header_about::after,
+.sec1_swiper .slide_year{
     -webkit-transition: all 0.4s ease-out;
     -moz-transition: all 0.4s ease-out;
     -o-transition: all 0.4s ease-out;
@@ -504,6 +505,7 @@ body.lightbox_open .sec1_header .header_maintitle{
 .sec1_swiper .swiper-slide{
     position: relative;
     height: 0;
+    padding-top: 30px;
     padding-bottom: 52%;
     -ms-overflow-y: hidden;
     -ms-overflow-x: hidden;
@@ -562,6 +564,14 @@ body.lightbox_open .sec1_header .header_maintitle{
     left: 0;
     right: 0;
     letter-spacing: 0.2px;
+}
+.sec1_swiper .slide_year{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    opacity: 0;
 }
 .swiper-pagination-sec1.swiper-pagination-bullets{
     position: absolute;
@@ -1430,9 +1440,8 @@ div.swiper-button-disabled{
     .sec1_swiper .swiper-slide-active{
         opacity: 0.6;
     }
-    .sec1_swiper .swiper-slide:hover{
-        opacity: 1;
-    }
+    .sec1_swiper .swiper-slide:hover,
+    .sec1_swiper .swiper-slide:hover .slide_year,
     .sec1_swiper .swiper-slide:hover .slide_text{
         opacity: 1;
     }
@@ -1442,10 +1451,6 @@ div.swiper-button-disabled{
     .sec1_header .header_about:hover{
         opacity: 0.7;
     }
-    /* .swiper-button-prev-sec1:hover,
-    .swiper-button-next-sec1:hover{
-        opacity: 1;
-    } */
 
     .sec1_lightbox .lightbox_info .info_link:hover{
         color: #2c7a99;
