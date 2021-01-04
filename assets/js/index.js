@@ -1,5 +1,13 @@
 jQuery(document).ready(function() {
 
+
+        // hover影片時自動播放
+        $(".video_wrap video").mouseover(function(){
+            $(this).get(0).play();
+        }).mouseout(function(){
+            $(this).get(0).pause();
+        })
+
     // 判別Safari
     if (navigator.userAgent.indexOf("Safari") > -1 && navigator.userAgent.indexOf("Chrome") < 0) {
         // alert('Safari');
@@ -115,12 +123,12 @@ jQuery(document).ready(function() {
             }    
         })
 
-        // hover影片時自動播放
-        $(".video_wrap video").mouseover(function(){
-            $(this).get(0).play();
-        }).mouseout(function(){
-            $(this).get(0).pause();
-        })
+        // // hover影片時自動播放
+        // $(".video_wrap video").mouseover(function(){
+        //     $(this).get(0).play();
+        // }).mouseout(function(){
+        //     $(this).get(0).pause();
+        // })
         
         //  下載CV
         $('.cv_img').click(function() {
