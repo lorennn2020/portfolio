@@ -1145,18 +1145,16 @@ div.swiper-button-disabled{
 .sec4_cv .cv_icon{
     position: absolute;
     display: block;
-    width: 38px;
-    height: 34px;
+    width: 22%;
+    height: 15%;
     top: 50%;
     left: 50%;
+    fill: #2c7a99;
     -webkit-transform: translate(-50%,-50%);
     -moz-transform: translate(-50%,-50%);
     -ms-transform: translate(-50%,-50%);
     -o-transform: translate(-50%,-50%);
     opacity: 0;
-}
-.sec4_cv .cv_icon{
-    fill: #fff;
 }
 .sec4_cv .cv_img a{
     position: absolute;
