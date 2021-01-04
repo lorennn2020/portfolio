@@ -67,7 +67,7 @@ body {
     align-items: center;
     left: 0;
     bottom: 0;
-    padding: 15px 50px;
+    padding: 15px 80px;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -79,9 +79,8 @@ body {
 }
 .sec1_header .header_maintitle{
     position: absolute;
-    /* top: -95px; */
     top: -3px;
-    left: 52px;
+    left: 75px;
 }
 body.lightbox_open .sec1_header .header_maintitle{
     opacity: 0;
@@ -954,6 +953,11 @@ div.swiper-button-disabled{
 }
 .sec2 .edu_img img{
     width: 100%;
+}
+.sec2 .cont_title{
+    padding-bottom: 8px;
+    display: block;
+    line-height: 24px;
 }
 .sec2 .cont_text{
     display: block;
