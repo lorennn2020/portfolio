@@ -1,0 +1,1 @@
+var twoWayLink = {"waycontent":[{"web_name":"\u300c\u88ab\u96e2\u8077\u300d\uff1f\uff01\u4ed6\u5011\u9019\u6a23\u6557\u90e8\u5fa9\u6d3b","web_url":"https:\/\/blog.104.com.tw\/104bravo-fired-to-revive\/?utm_source=104blackbar&utm_medium=1117","web_color":"#FFFF33","web_startdate":"","web_enddate":"","web_title":""}]};

@@ -1,0 +1,124 @@
+@charset "utf-8";
+/* CSS Document */
+#globalbar div,#globalbar dl,#globalbar dt,#globalbar dd,#globalbar ul,#globalbar ol,#globalbar li,#globalbar h1,#globalbar h2,#globalbar h3,#globalbar h4,#globalbar h5,#globalbar h6,#globalbar p{  margin:0; padding:0; }
+#globalbar a,#globalbar button { cursor:pointer; }    
+#globalbar ol,#globalbar ul { list-style:none; }    
+#globalbar h1,#globalbar h2,#globalbar h3,#globalbar h4,#globalbar h5,#globalbar h6 { font-size:100%; font-weight:normal; }    
+#globalbar{font-size: 13px;line-height: 20px;letter-spacing: 0.1em;font-family: Verdana, Geneva, sans-serif;padding: 0 0 30px 0;*display:inline;*zoom:1;}
+
+#bar_m104 a{outline: none; /* for Firefox Google Chrome  */	behavior:expression(this.onFocus=this.blur()); /* for IE */}
+#bar_m104 {width: 100%;background-color: #2d2d2d;border-bottom: 1px solid #000000;visibility: visible;position: fixed; /*置頂*/top:0;right:0;z-index: 9999;}
+#global_bk{height: 29px;margin:0 auto;}
+#bar_m104 .global_lr .left{left:0;position: absolute;}
+#bar_m104 .global_lr .right{right:0;position: absolute;}
+#bar_m104 .global_lr .right .global_nav{float: right;}
+#bar_m104 .global_lr .right li{float: left;}
+#bar_m104 ul.global_nav li{	float:left;	width:auto;	line-height:29px;position:relative;text-align: center;display:block;}
+#bar_m104 ul.global_nav li a{color: #FFF;text-decoration: none;display:block;padding-right: 0.5em;padding-left: 0.5em;line-height:29px;}
+#bar_m104 ul.global_nav li a:hover{background-color: #4c4c4c;text-decoration: none;height:29px;color: #FFF;}
+/*點選作用標籤*/
+#bar_m104 ul.global_nav li.active a{background-color: #FFF;color:#000;background-image: none;height: 30px;_height: 25px;}
+/*104求職標題*/
+#bar_m104 ul.global_nav li.c_title ,#bar_m104 ul.global_nav li.c_title a {margin-left: 0px;color: #FFF;padding-right: 0.5em;padding-left: 0.5em;margin-top: 0px\9;*margin-top: 0px;padding-bottom: 0px\9;*padding-bottom: 0px;}
+/*人名*/
+#bar_m104 ul.global_nav li.personal p{display:inline;}
+#bar_m104 ul.global_nav li.personal a{*margin-top: -2px;*padding-bottom: 2px;_margin-top: 0px;_padding-top: 4px;_padding-bottom: 0px;}
+#bar_m104 ul.global_nav li.personal a:hover{_height: 25px;}
+/*促銷文案
+ul.global_nav li.ad a{color: #dd4246;}*/
+/*三角形*/
+#bar_m104 ul.global_nav li.active a span,#bar_m104 ul.global_nav li a span{background-repeat: no-repeat;background-position: 4px 11px;*background-position: 4px 8px;display:inline-block;height:17px;width:11px;margin-right: 5px;}
+#bar_m104 ul.global_nav li.active a span{background-image: url(../img/global_arrow_on.gif);}
+#bar_m104 ul.global_nav li a span {background-image: url(../img/global_arrow.gif);}
+/*目前所在頁籤*/
+#bar_m104 ul.global_nav li.on a{background-image: url(../img/global_on.gif);background-repeat: no-repeat;background-position: center top;font-weight: bold;}
+#bar_m104 ul.global_nav li a.notice,#bar_m104 ul.global_nav li a.browser,#bar_m104 ul.global_nav li a.letter,#bar_m104 ul.global_nav li a.newjob{height: 30px;*height: 29px;width: 44px;background-repeat: no-repeat;background-position: 14px 6px;padding-right: 0em;padding-left: 0em;}
+#bar_m104 ul.global_nav li a.notice{background-image: url(../img/icon_alertbar_notice.gif);}
+#bar_m104 ul.global_nav li a.browser{background-image: url(../img/icon_alertbar_browser.gif)}
+#bar_m104 ul.global_nav li a.letter{background-image: url(../img/icon_alertbar_letter.gif)}
+#bar_m104 ul.global_nav li a.newjob{background-image: url(../img/icon_alertbar_newjob.gif)}
+#bar_m104 ul.global_nav li.active a.notice,#bar_m104 ul.global_nav li.active a:hover.notice,#bar_m104 ul.global_nav li.yell_notice a.notice{background-image: url(../img/icon_alertbar_notice_on.gif);}
+#bar_m104 ul.global_nav li.active a.browser,#bar_m104 ul.global_nav li.active a:hover.browser,#bar_m104 ul.global_nav li.yell_notice a.browser{background-image: url(../img/icon_alertbar_browser_on.gif)}
+#bar_m104 ul.global_nav li.active a.letter,#bar_m104 ul.global_nav li.active a:hover.letter,#bar_m104 ul.global_nav li.yell_notice a.letter{background-image: url(../img/icon_alertbar_letter_on.gif)}
+#bar_m104 ul.global_nav li.active a.newjob,#bar_m104 ul.global_nav li.active a:hover.newjob,#bar_m104 ul.global_nav li.yell_notice a.newjob{background-image: url(../img/icon_alertbar_newjob_on.gif)}
+/*第二層外框*/
+#bar_m104 ul.global_nav ul.global_sub{position:absolute;display:none;top:30px;*top:29px;right:0;float:right;margin-right: -1px;}
+/*下拉內容*/
+#bar_m104 ul.global_nav li div.box{text-align: left;z-index: 9999;background-color:#fff;border:1px solid #333;border-top:0px;position: relative;}
+#bar_m104 ul.global_nav li div.box a{display: inline-block;width: auto;background: none;color: #0059c6;margin: 0px;padding: 0px; white-space: nowrap; overflow:hidden; text-overflow: ellipsis; vertical-align: middle;}
+#bar_m104 ul.global_nav li div.box a:hover{display: inline-block;width: auto;background: none;color: #0059c6;}
+#bar_m104 .box h3{font-weight: bold;color:#333333;margin-bottom: 5px;	background:url(../img/ill_square_02.gif) repeat-x bottom;clear:both;}
+#bar_m104 .box h3 span{font-size:12px;color:#999;font-weight: normal;float:right;}
+#bar_m104 .alertbar_letter a { max-width: 22.5em;}
+#bar_m104 .alertbar_letter dd {line-height: 21px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;}
+#bar_m104 .alertbar_browser a { max-width: 20.2em;}
+
+/*連結顏色*/
+#bar_m104 ul.global_sub li div.box a{color:#005588;}
+#bar_m104 ul.global_sub li div.box a:hover{color:#06C;}	
+/*服務子網*/
+#bar_m104 .navi_box {width:86px;padding: 10px 0 10px 0;display: inline-block;}
+/*寬版*/
+#bar_m104 .navi_box_wide {width:24.6em;padding: 10px 0 10px 0;display: inline-block;}
+#bar_m104 .navi_box_wide div.web_box_line{padding-bottom: 8px;overflow: hidden;border-top: 1px solid #e6e6e6;margin-top: 8px;height: 1px;width: 100%;}
+#bar_m104 .navi_box_wide dl{display: inline-block;} 
+#bar_m104 .global_sub .navi_box_wide dt {clear: left;float:left;width:7em;background-image:none;height:1.8em;line-height: 1.8em;padding-left: 0.8em;}
+#bar_m104 .global_sub .navi_box_wide dt a,#bar_m104 .global_sub .navi_box_wide dt a:hover{height:1.8em;line-height: 1.8em;}
+#bar_m104 .global_sub .navi_box_wide dd{color:#666666;height:1.8em;line-height: 1.8em;float:left;width:16em;padding-right: 0.8em;}	
+#bar_m104 .global_sub .navi_box_wide dl:hover dt,#bar_m104 .global_sub .navi_box_wide dl:hover dd{background-color: #efefef;}
+/*窄版*/	
+#bar_m104 .navi_box .web_box{margin:0;}
+#bar_m104 .navi_box .web_box ul{display: block;} 
+#bar_m104 .global_sub .navi_box .web_box li {clear: left;float:left;width:84px;background-image:none;height:1.8em;line-height: 1.8em;white-space: nowrap;text-align: left;}
+#bar_m104 .global_sub .navi_box .web_box li.group_line div{padding-bottom: 5px;overflow: hidden;border-top: 1px solid #e6e6e6;margin-top: 10px;width:100%;height: 1px;}
+#bar_m104 .global_sub .navi_box .web_box li a,#bar_m104 .global_sub .navi_box .web_box li a:hover{height:1.8em;line-height: 1.8em;}
+#bar_m104 .global_sub .navi_box .web_box li a{padding-left:1em; padding-right:1em;}	
+#bar_m104 .global_sub .navi_box .web_box li a:hover{width:60px;background-color: #efefef;}
+/*姓名*/
+#bar_m104 .personal_box {width:200px;padding: 10px 0;}
+#bar_m104 .personal_box dl{height:auto;text-align:left;width: 100%;}
+#bar_m104 .personal_box dt{padding-left:2em; padding-top:0; padding-bottom:0.4em; _padding-bottom:0em;height:1.7em;background:url(../img/ill_square_01.gif) no-repeat 1em 0.8em;}
+#bar_m104 .personal_box dt:hover,#bar_m104 .personal_box dd:hover{background-color: #efefef;}
+#bar_m104 .personal_box dd {padding-left:2em; padding-top:0;padding-bottom:0.4em; _padding-bottom:0em;height:1.7em;}
+#bar_m104 ul.global_nav .personal_box a.active{border: 1px solid #CCCCCC;	color: #CB672C;	line-height: 1.2em;	height: auto;}
+#bar_m104 .border_bottom_1px{border-bottom:1px solid #e6e6e6; }	
+/*104提醒*/
+#bar_m104 .alertbar_notice{width:33em; width:35em\9;}
+#bar_m104 .alertbar_notice h3,#bar_m104 .alertbar_browser h3,#bar_m104 .alertbar_letter h3,#bar_m104 .alertbar_newjob h3{margin-right: 1.5em;margin-left: 1.5em;padding-top: 10px;}
+#bar_m104 .alertbar_notice ul,#bar_m104 .alertbar_browser ul,#bar_m104 .alertbar_newjob ul{	clear:both;display: inline-block;margin-bottom: 10px;width: 100%;}
+#bar_m104 .global_sub .alertbar_notice li{padding-left: 2em;height:1.8em;line-height: 1.8em;text-align: left;float: none;padding-bottom: 5px;_padding-bottom: 0px;background: url(../img/ill_square_01.gif) no-repeat 1em center;}
+#bar_m104 .global_sub .alertbar_notice li.no{background-color: #ecfbf9;}
+#bar_m104 .global_sub .alertbar_notice li:hover{background-color: #efefef;}
+#bar_m104 .global_sub .box li small{ font-size:0.8em;}
+#bar_m104 .global_sub .box li samp,#bar_m104 .global_sub .box ul samp,#bar_m104 .global_sub .box dl samp{color:#999999;letter-spacing: 0px;	font-family: Verdana, Arial, Helvetica, sans-serif; font-size:0.8em; -webkit-text-size-adjust:none;}
+#bar_m104 .global_sub .box p{text-align:center;}
+#bar_m104 .global_sub .box p a.more{font-weight: bold; background-color:#f3f3f3; border-top:1px solid #dddddd; width:100%;line-height: 32px;height: 32px;margin-right: 0;margin-left: 0;}
+#bar_m104 .global_sub .box p a.more:hover{background-color:#5C89AD;color:#FFFFFF; border-top:1px solid #2d6f9b;width:100%;margin-right: 0;margin-left: 0;}
+/*誰看過我*/
+#bar_m104 .alertbar_browser{width:28em; width:30em\9; }
+#bar_m104 .global_sub .alertbar_browser ul{width: 100%;}
+#bar_m104 .global_sub .alertbar_browser li{padding-left: 2em;background: url(../img/ill_square_01.gif) no-repeat 1em center;text-align: left;height:1.8em;line-height: 1.8em;float: none;padding-bottom: 5px;_padding-bottom: 0px;}
+#bar_m104 .global_sub .alertbar_browser li.no{background-color: #ecfbf9;}
+#bar_m104 .global_sub .alertbar_browser li:hover{background-color: #efefef;}
+#bar_m104 .global_sub .alertbar_browser li.off a{color:#999999;}
+#bar_m104 .global_sub .alertbar_browser li.off a:hover{color:#999999;}	
+/*求才信件*/
+#bar_m104 .alertbar_letter{width:31.5em;}
+#bar_m104 .global_sub .alertbar_letter dl{border-bottom:1px solid #e6e6e6;padding-right: 1em;padding-left: 1em;}
+#bar_m104 .global_sub .alertbar_letter dl.no{ background-color:#ecfbf9;}
+#bar_m104 .global_sub .alertbar_letter dl:hover{ background-color:#efefef;}
+#bar_m104 .global_sub .alertbar_letter dl.end{border-bottom:0px;}
+#bar_m104 .global_sub .alertbar_letter dt{background: url(../img/ill_square_01.gif) no-repeat 0px center;text-align: left;height:1.8em;line-height: 1.8em;padding-left: 1em; float: none; width: auto; }
+#bar_m104 .global_sub	.alertbar_letter dd{padding-left: 1em;}
+/*最新工作*/
+#bar_m104 .alertbar_newjob{ width:23em;}
+#bar_m104 .global_sub .alertbar_newjob ul{width: 100%;}
+#bar_m104 .global_sub .alertbar_newjob li{padding-left:2em;height:1.8em;line-height: 1.8em;background: url(../img/ill_square_01.gif) no-repeat 1em center;text-align: left;float: none;padding-bottom: 5px;*padding-bottom: 8px;_padding-bottom: 0px;}
+#bar_m104 .global_sub .alertbar_newjob li.no{background-color:#ecfbf9;}
+#bar_m104 .global_sub .alertbar_newjob li:hover{background-color:#efefef;}
+#bar_m104 .global_sub .alertbar_newjob li a.amount{color:#cc3300;padding-left:1px;padding-right:2px;}
+#bar_m104 .global_sub .alertbar_newjob li a:hover.amount{color:#cc3300;}
+/*add pointer*/
+#bar_m104 .global_sub .alertbar_notice ul li,#bar_m104 .global_sub .alertbar_browser ul li,#bar_m104 .global_sub .alertbar_newjob ul li,#bar_m104 .global_sub .alertbar_letter dl,#bar_m104 .personal_box dt{cursor:pointer;}
+/*泡泡*/
+#bar_m104 .bubble {background-color: #F03D25;border-bottom:1px solid #DD3822;border-bottom-left-radius: 2px;border-bottom-right-radius: 2px;border-top-left-radius: 2px;border-top-right-radius: 2px;border-top-style: none;border-top-width: 0;padding:0px;padding-right:4px;padding-left:1px;color:#fff;font-size:10px;display: block;letter-spacing: -1px;font-weight: bold;position:absolute;left:20px;line-height: 14px;-webkit-text-size-adjust:none;margin-left:0.6em;}
