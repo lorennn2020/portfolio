@@ -116,11 +116,11 @@ jQuery(document).ready(function() {
         })
 
         // hover影片時自動播放
-        $(".video_wrap video").mouseover(function(){
-            $(this).get(0).play();
-        }).mouseout(function(){
-            $(this).get(0).pause();
-        })
+        // $(".video_wrap video").mouseover(function(){
+        //     $(this).get(0).play();
+        // }).mouseout(function(){
+        //     $(this).get(0).pause();
+        // })
         
         //  下載CV
         $('.cv_img').click(function() {

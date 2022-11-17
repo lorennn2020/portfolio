@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.2.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="圖層_1" shape-rendering="crispEdges"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 56 56"
+	 style="enable-background:new 0 0 56 56;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#035E55;}
+	.st1{fill:#009A6C;}
+	.st2{fill:#05FFB5;}
+	.st3{fill:#17CE98;}
+	.st4{opacity:0.1176;fill:#011E1B;enable-background:new    ;}
+</style>
+<g>
+	<rect x="52" class="st0" width="4" height="4"/>
+</g>
+<g>
+	<rect x="48" class="st1" width="4" height="4"/>
+	<rect x="52" y="4" class="st1" width="4" height="4"/>
+</g>
+<g>
+	<polygon class="st2" points="52,8 48,8 48,4 44,4 44,0 40,0 36,0 36,4 40,4 40,8 44,8 44,12 48,12 48,16 52,16 52,12 	"/>
+	<rect x="52" y="16" class="st2" width="4" height="4"/>
+</g>
+<g>
+	<rect x="44" class="st3" width="4" height="4"/>
+	<rect x="32" y="4" class="st3" width="4" height="4"/>
+	<rect x="48" y="4" class="st3" width="4" height="4"/>
+	<rect x="28" y="8" class="st3" width="4" height="4"/>
+	<polygon class="st3" points="52,12 52,16 56,16 56,12 56,8 52,8 	"/>
+	<rect x="44" y="16" class="st3" width="4" height="4"/>
+	<rect x="40" y="20" class="st3" width="4" height="4"/>
+	<polygon class="st3" points="36,28 36,32 40,32 40,28 40,24 36,24 	"/>
+</g>
+<g>
+	<polygon class="st4" points="52,16 48,16 48,20 44,20 44,24 40,24 40,28 40,32 36,32 36,28 36,24 40,24 40,20 44,20 44,16 48,16 
+		48,12 44,12 44,8 40,8 40,4 36,4 36,8 32,8 32,12 28,12 28,8 32,8 32,4 36,4 36,0 32,0 28,0 24,0 20,0 16,0 12,0 8,0 4,0 0,0 0,4 
+		0,8 0,12 0,16 0,20 0,24 0,28 0,32 0,36 0,40 0,44 0,48 0,52 0,56 4,56 8,56 12,56 16,56 20,56 24,56 28,56 32,56 36,56 40,56 
+		44,56 48,56 52,56 56,56 56,52 56,48 56,44 56,40 56,36 56,32 56,28 56,24 56,20 52,20 	"/>
+</g>
+</svg>

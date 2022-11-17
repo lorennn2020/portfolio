@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.2.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="圖層_1" shape-rendering="crispEdges"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 35.9 36"
+	 style="enable-background:new 0 0 35.9 36;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFAC83;}
+	.st1{fill:#961515;}
+	.st2{fill:#E13030;}
+	.st3{fill:#FFE7D8;}
+	.st4{fill:#D99F77;}
+</style>
+<g>
+	<rect x="20" y="0" class="st0" width="4" height="4"/>
+	<rect x="32" y="4" class="st0" width="4" height="4"/>
+</g>
+<rect x="20" y="8" class="st1" width="4" height="4"/>
+<g>
+	<polygon class="st2" points="32,12 32,8 28,8 28,4 24,4 24,8 24,12 20,12 20,16 24,16 28,16 28,12 	"/>
+	<rect x="28" y="16" class="st2" width="4" height="4"/>
+</g>
+<g>
+	<rect x="16" y="16" class="st3" width="4" height="4"/>
+	<rect x="12" y="20" class="st3" width="4" height="4"/>
+	<rect x="8" y="24" class="st3" width="4" height="4"/>
+</g>
+<g>
+	<rect x="32" y="16" class="st4" width="4" height="4"/>
+	<rect x="4" y="28" class="st4" width="4" height="4"/>
+	<rect x="0" y="32" class="st4" width="4" height="4"/>
+</g>
+</svg>

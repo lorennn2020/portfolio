@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.2.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="圖層_1" shape-rendering="crispEdges"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 72 24"
+	 style="enable-background:new 0 0 72 24;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFEA00;}
+	.st1{fill:#DBBA25;}
+</style>
+<polygon class="st0" points="68,8 68,4 64,4 60,4 56,4 56,0 52,0 48,0 44,0 40,0 36,0 32,0 28,0 24,0 20,0 16,0 16,4 12,4 8,4 4,4 
+	4,8 0,8 0,12 4,12 4,16 8,16 12,16 16,16 16,20 20,20 24,20 28,20 32,20 36,20 40,20 44,20 48,20 52,20 56,20 56,16 60,16 64,16 
+	68,16 68,12 72,12 72,8 "/>
+<g>
+	<rect y="12" class="st1" width="4" height="4"/>
+	<rect x="68" y="12" class="st1" width="4" height="4"/>
+	<polygon class="st1" points="12,16 8,16 4,16 4,20 8,20 12,20 16,20 16,16 	"/>
+	<polygon class="st1" points="60,16 56,16 56,20 60,20 64,20 68,20 68,16 64,16 	"/>
+	<polygon class="st1" points="48,20 44,20 40,20 36,20 32,20 28,20 24,20 20,20 16,20 16,24 20,24 24,24 28,24 32,24 36,24 40,24 
+		44,24 48,24 52,24 56,24 56,20 52,20 	"/>
+</g>
+</svg>

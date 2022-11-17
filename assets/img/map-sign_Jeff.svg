@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.2.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="圖層_1" shape-rendering="crispEdges"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 32 52"
+	 style="enable-background:new 0 0 32 52;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#745659;}
+	.st1{fill:#5E4547;}
+	.st2{fill:#FFE7D8;}
+	.st3{fill:#E5CAAE;}
+	.st4{fill:#BDA120;}
+	.st5{fill:#FFEA00;}
+</style>
+<g>
+	<rect x="24" y="4" class="st0" width="4" height="4"/>
+	<polygon class="st0" points="16,8 12,8 12,12 16,12 20,12 24,12 24,8 20,8 	"/>
+</g>
+<rect x="12" y="12" class="st1" width="4" height="4"/>
+<rect x="12" y="16" class="st1" width="4" height="4"/>
+<polygon class="st2" points="20,12 16,12 16,16 16,20 12,20 12,24 16,24 20,24 24,24 24,20 24,16 24,12 "/>
+<rect x="16" y="24" class="st3" width="4" height="4"/>
+<g>
+	<polygon class="st4" points="20,4 16,4 12,4 8,4 8,8 8,12 8,16 8,20 8,24 8,28 12,28 16,28 16,24 12,24 12,20 12,16 12,12 12,8 
+		16,8 20,8 24,8 24,4 	"/>
+	<polygon class="st4" points="24,8 24,12 24,16 24,20 24,24 20,24 20,28 24,28 28,28 28,24 28,20 28,16 28,12 28,8 	"/>
+	<polygon class="st4" points="4,20 4,16 4,12 4,8 0,8 0,12 0,16 0,20 0,24 0,28 4,28 4,24 	"/>
+	<polygon class="st4" points="4,32 4,36 8,36 8,32 8,28 4,28 	"/>
+	<polygon class="st4" points="8,44 12,44 12,40 12,36 8,36 8,40 	"/>
+	<polygon class="st4" points="12,52 16,52 16,48 16,44 12,44 12,48 	"/>
+</g>
+<g>
+	<polygon class="st5" points="16,4 20,4 24,4 28,4 28,0 24,0 20,0 16,0 12,0 8,0 8,4 12,4 	"/>
+	<polygon class="st5" points="28,4 28,8 28,12 28,16 28,20 28,24 28,28 32,28 32,24 32,20 32,16 32,12 32,8 32,4 	"/>
+	<polygon class="st5" points="8,20 8,16 8,12 8,8 8,4 4,4 4,8 4,12 4,16 4,20 4,24 4,28 8,28 8,24 	"/>
+	<polygon class="st5" points="20,28 16,28 12,28 8,28 8,32 8,36 12,36 12,40 12,44 16,44 16,48 16,52 20,52 20,48 20,44 24,44 
+		24,40 24,36 28,36 28,32 28,28 24,28 	"/>
+</g>
+</svg>

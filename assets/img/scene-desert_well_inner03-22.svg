@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.2.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="圖層_1" shape-rendering="crispEdges"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 56 56"
+	 style="enable-background:new 0 0 56 56;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#035E55;}
+	.st1{fill:#009A6C;}
+	.st2{fill:#05FFB5;}
+	.st3{fill:#17CE98;}
+	.st4{opacity:0.1176;fill:#011E1B;enable-background:new    ;}
+</style>
+<g>
+	<polygon class="st0" points="52,36 52,40 56,40 56,36 56,32 52,32 	"/>
+	<polygon class="st0" points="48,44 48,48 44,48 44,52 48,52 52,52 52,48 56,48 56,44 52,44 	"/>
+</g>
+<g>
+	<polygon class="st1" points="52,28 52,32 56,32 56,28 56,24 52,24 	"/>
+	<polygon class="st1" points="48,40 48,44 52,44 56,44 56,40 52,40 	"/>
+	<rect x="44" y="44" class="st1" width="4" height="4"/>
+	<polygon class="st1" points="40,52 40,56 44,56 48,56 52,56 52,52 48,52 44,52 44,48 40,48 	"/>
+	<rect x="52" y="48" class="st1" width="4" height="4"/>
+</g>
+<g>
+	<polygon class="st2" points="52,12 52,16 56,16 56,12 56,8 52,8 	"/>
+	<polygon class="st2" points="48,20 44,20 44,24 44,28 40,28 40,32 40,36 36,36 36,40 32,40 32,44 28,44 28,48 28,52 28,56 32,56 
+		32,52 32,48 36,48 36,44 40,44 40,40 44,40 44,36 48,36 48,32 52,32 52,28 52,24 52,20 52,16 48,16 	"/>
+</g>
+<g>
+	<polygon class="st3" points="48,4 44,4 44,8 44,12 48,12 48,8 	"/>
+	<rect x="48" y="12" class="st3" width="4" height="4"/>
+	<polygon class="st3" points="52,20 52,24 56,24 56,20 56,16 52,16 	"/>
+	<rect x="32" y="24" class="st3" width="4" height="4"/>
+	<polygon class="st3" points="32,40 36,40 36,36 32,36 28,36 24,36 24,40 28,40 	"/>
+	<polygon class="st3" points="52,36 52,32 48,32 48,36 44,36 44,40 40,40 40,44 36,44 36,48 32,48 32,52 32,56 36,56 40,56 40,52 
+		40,48 44,48 44,44 48,44 48,40 52,40 	"/>
+	<rect x="20" y="52" class="st3" width="4" height="4"/>
+	<rect x="52" y="52" class="st3" width="4" height="4"/>
+</g>
+<g>
+	<path class="st4" d="M48,0h-4h-4h-4h-4h-4h-4h-4h-4h-4H8H4H0v4v4v4v4v4v4v4v4v4v4v4v4v4v4h4h4h4h4h4v-4h4v4h4v-4v-4v-4h4v-4h-4h-4
+		v-4h4h4h4h4v-4v-4h4v-4v-4h4v-4v-4h-4V8V4h4v4v4h4V8h4V4V0h-4H48z M32,28v-4h4v4H32z"/>
+</g>
+</svg>

@@ -566,6 +566,7 @@ body.lightbox_open .sec1_header .header_maintitle{
 }
 .sec1_swiper .slide_year{
     position: absolute;
+    display: none;
     top: 0;
     left: 0;
     right: 0;
@@ -1099,6 +1100,43 @@ div.swiper-button-disabled{
     margin-left: 15px;
 }
 /* ----- sec3 ----- end */
+
+/* ----- secGame ----- */
+.secGame {
+    position: relative;
+    z-index: 1;
+    height: auto;
+    padding: 100px 5% 100px 5%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background-color:#1f3143;
+}
+.secGame_title{}
+.secGame_cont{
+    width: 15%;
+    position: absolute;
+    top: 220px;
+    line-height: 24px;
+}
+.secGame .video_wrap{
+    position: relative;
+    width: 70%;
+    margin: 0 0 0 auto;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    margin-top: 50px;
+}
+.secGame .video_wrap video{
+    width: calc(30% - 10px);
+}
+.secGame .video_wrap video+video{
+    margin-left: 15px;
+}
+/* ----- secGame ----- end */
 /* ----- sec4 ----- */
 .sec4 {
     position: relative;

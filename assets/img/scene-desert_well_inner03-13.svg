@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.2.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="圖層_1" shape-rendering="crispEdges"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 56 56"
+	 style="enable-background:new 0 0 56 56;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#035E55;}
+	.st1{fill:#009A6C;}
+	.st2{fill:#05FFB5;}
+	.st3{fill:#17CE98;}
+	.st4{opacity:0.1176;fill:#011E1B;enable-background:new    ;}
+</style>
+<g>
+</g>
+<g>
+	<rect x="52" y="16" class="st1" width="4" height="4"/>
+	<rect x="44" y="20" class="st1" width="4" height="4"/>
+	<polygon class="st1" points="48,32 48,36 48,40 48,44 48,48 48,52 52,52 52,48 52,44 52,40 52,36 52,32 52,28 52,24 48,24 48,28 	
+		"/>
+	<rect x="4" y="52" class="st1" width="4" height="4"/>
+</g>
+<g>
+	<polygon class="st2" points="28,12 32,12 36,12 40,12 44,12 44,8 40,8 36,8 32,8 28,8 24,8 20,8 16,8 12,8 12,12 16,12 20,12 
+		24,12 	"/>
+	<polygon class="st2" points="48,16 52,16 52,12 48,12 44,12 44,16 	"/>
+	<rect x="12" y="36" class="st2" width="4" height="4"/>
+</g>
+<g>
+	<polygon class="st3" points="16,4 16,0 12,0 8,0 8,4 12,4 	"/>
+	<rect x="4" y="4" class="st3" width="4" height="4"/>
+	<polygon class="st3" points="20,8 24,8 28,8 28,4 24,4 20,4 16,4 16,8 	"/>
+	<rect x="8" y="8" class="st3" width="4" height="4"/>
+	<rect x="36" y="12" class="st3" width="4" height="4"/>
+	<rect x="40" y="16" class="st3" width="4" height="4"/>
+	<polygon class="st3" points="8,48 8,52 12,52 12,48 12,44 8,44 	"/>
+	<rect x="44" y="52" class="st3" width="4" height="4"/>
+</g>
+<g>
+	<polygon class="st4" points="48,0 44,0 40,0 36,0 32,0 28,0 24,0 20,0 16,0 16,4 20,4 24,4 28,4 28,8 32,8 36,8 40,8 44,8 44,12 
+		48,12 52,12 52,16 56,16 56,12 56,8 56,4 56,0 52,0 	"/>
+	<polygon class="st4" points="12,8 16,8 16,4 12,4 8,4 8,8 	"/>
+	<rect x="40" y="12" class="st4" width="4" height="4"/>
+	<polygon class="st4" points="44,16 44,20 48,20 48,24 52,24 52,28 52,32 52,36 52,40 52,44 52,48 52,52 48,52 48,56 52,56 56,56 
+		56,52 56,48 56,44 56,40 56,36 56,32 56,28 56,24 56,20 52,20 52,16 48,16 	"/>
+	<path class="st4" d="M48,44v-4v-4v-4v-4v-4h-4v-4h-4v-4h-4v-4h-4h-4h-4h-4h-4h-4H8V8H4V4h4V0H4H0v4v4v4v4v4v4v4v4v4v4v4v4v4v4h4v-4
+		h4v-4v-4h4v4v4H8v4h4h4h4h4h4h4h4h4h4v-4h4v-4V44z M12,36h4v4h-4V36z"/>
+</g>
+</svg>

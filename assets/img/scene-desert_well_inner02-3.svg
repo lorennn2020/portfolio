@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.2.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="圖層_1" shape-rendering="crispEdges"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 96 96"
+	 style="enable-background:new 0 0 96 96;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#035E55;}
+	.st1{fill:#05FFB5;}
+	.st2{fill:#17CE98;}
+	.st3{fill:#009A6C;}
+	.st4{opacity:0.1176;fill:#011E1B;enable-background:new    ;}
+</style>
+<g>
+	<polygon class="st0" points="80,72 80,68 76,68 76,72 76,76 80,76 84,76 84,72 	"/>
+	<rect x="84" y="76" class="st0" width="4" height="4"/>
+	<rect x="88" y="80" class="st0" width="4" height="4"/>
+	<polygon class="st0" points="92,88 88,88 88,92 92,92 92,96 96,96 96,92 96,88 96,84 92,84 	"/>
+</g>
+<g>
+	<polygon class="st1" points="16,28 12,28 8,28 4,28 0,28 0,32 4,32 8,32 12,32 16,32 20,32 20,28 	"/>
+	<polygon class="st1" points="28,32 24,32 20,32 20,36 24,36 28,36 32,36 32,32 	"/>
+	<rect x="32" y="36" class="st1" width="4" height="4"/>
+	<polygon class="st1" points="28,44 28,40 24,40 20,40 16,40 12,40 8,40 4,40 0,40 0,44 4,44 8,44 12,44 16,44 20,44 24,44 	"/>
+	<polygon class="st1" points="80,44 80,40 76,40 72,40 72,44 68,44 68,40 64,40 60,40 60,44 56,44 56,48 52,48 52,52 52,56 48,56 
+		48,60 48,64 48,68 52,68 52,72 52,76 52,80 52,84 56,84 56,88 56,92 60,92 60,96 64,96 68,96 72,96 72,92 72,88 68,88 68,84 64,84 
+		64,80 64,76 64,72 60,72 60,68 60,64 64,64 64,60 64,56 60,56 60,52 64,52 68,52 68,48 72,48 76,48 80,48 84,48 84,44 	"/>
+	<polygon class="st1" points="92,48 88,48 84,48 84,52 88,52 88,56 92,56 92,60 92,64 92,68 92,72 96,72 96,68 96,64 96,60 96,56 
+		96,52 92,52 	"/>
+</g>
+<g>
+	<rect x="56" y="28" class="st2" width="4" height="4"/>
+	<rect x="60" y="32" class="st2" width="4" height="4"/>
+	<rect x="64" y="36" class="st2" width="4" height="4"/>
+	<rect x="84" y="36" class="st2" width="4" height="4"/>
+	<rect x="40" y="40" class="st2" width="4" height="4"/>
+	<rect x="68" y="40" class="st2" width="4" height="4"/>
+	<polygon class="st2" points="36,48 36,44 32,44 28,44 28,48 32,48 	"/>
+	<rect x="44" y="44" class="st2" width="4" height="4"/>
+	<rect x="36" y="48" class="st2" width="4" height="4"/>
+	<rect x="48" y="48" class="st2" width="4" height="4"/>
+	<polygon class="st2" points="44,56 48,56 48,52 44,52 40,52 40,56 	"/>
+	<polygon class="st2" points="28,56 24,56 24,60 28,60 32,60 32,56 	"/>
+	<polygon class="st2" points="44,64 48,64 48,60 44,60 40,60 36,60 32,60 32,64 36,64 40,64 	"/>
+	<path class="st2" d="M92,64v-4v-4h-4v-4h-4v-4h-4h-4h-4h-4v4h-4h-4v4h4v4v4h-4v4v4h4v4v4v4h4v4h4v4v4h4h4h4v-4v-4h-4v-4h-4v-4h-4
+		v-4h-4v-4v-4v-4h4h4h4h4v4h4v4h4v-4V64z M72,60v-4h4v4H72z M80,60v-4h4v4H80z"/>
+	<polygon class="st2" points="48,76 48,72 44,72 40,72 40,76 44,76 	"/>
+	<rect x="92" y="72" class="st2" width="4" height="4"/>
+	<rect x="48" y="76" class="st2" width="4" height="4"/>
+	<polygon class="st2" points="56,84 52,84 48,84 44,84 44,88 48,88 52,88 56,88 	"/>
+</g>
+<g>
+	<rect x="36" y="40" class="st3" width="4" height="4"/>
+	<polygon class="st3" points="8,60 12,60 16,60 20,60 24,60 24,56 20,56 16,56 12,56 8,56 4,56 0,56 0,60 4,60 	"/>
+	<rect x="72" y="56" class="st3" width="4" height="4"/>
+	<rect x="80" y="56" class="st3" width="4" height="4"/>
+	<polygon class="st3" points="92,72 88,72 88,68 84,68 84,64 80,64 76,64 72,64 68,64 68,68 68,72 68,76 72,76 72,80 76,80 76,84 
+		80,84 80,88 84,88 84,92 84,96 88,96 92,96 92,92 88,92 88,88 92,88 92,84 88,84 88,80 84,80 84,76 80,76 76,76 76,72 76,68 80,68 
+		80,72 84,72 84,76 88,76 88,80 92,80 92,84 96,84 96,80 96,76 92,76 	"/>
+</g>
+<g>
+	<path class="st4" d="M88,0h-4h-4h-4h-4h-4h-4h-4h-4h-4h-4h-4h-4h-4h-4h-4h-4h-4h-4h-4H8H4H0v4v4v4v4v4v4v4h4h4h4h4h4v4h4h4h4v4h4v4
+		h4h4v4h4v4h4h4v-4h4v-4h4v-4h-4v-4h-4v-4h4v4h4v4h4v4h4h4h4v4h4v4h4h4v4h4v-4v-4v-4v-4v-4v-4v-4v-4v-4v-4V8V4V0h-4H88z M84,36h4v4
+		h-4V36z"/>
+	<polygon class="st4" points="36,44 36,40 32,40 32,36 28,36 24,36 20,36 20,32 16,32 12,32 8,32 4,32 0,32 0,36 0,40 4,40 8,40 
+		12,40 16,40 20,40 24,40 28,40 28,44 32,44 	"/>
+	<polygon class="st4" points="44,44 40,44 36,44 36,48 40,48 40,52 44,52 48,52 48,48 44,48 	"/>
+	<rect x="48" y="52" class="st4" width="4" height="4"/>
+	<polygon class="st4" points="40,56 40,52 36,52 36,48 32,48 28,48 28,44 24,44 20,44 16,44 12,44 8,44 4,44 0,44 0,48 0,52 0,56 
+		4,56 8,56 12,56 16,56 20,56 24,56 28,56 32,56 32,60 36,60 40,60 44,60 48,60 48,56 44,56 	"/>
+	<polygon class="st4" points="24,60 20,60 16,60 12,60 8,60 4,60 0,60 0,64 0,68 0,72 0,76 0,80 0,84 0,88 0,92 0,96 4,96 8,96 
+		12,96 16,96 20,96 24,96 28,96 32,96 36,96 40,96 44,96 48,96 52,96 56,96 60,96 60,92 56,92 56,88 52,88 48,88 44,88 44,84 48,84 
+		52,84 52,80 48,80 48,76 44,76 40,76 40,72 44,72 48,72 48,76 52,76 52,72 52,68 48,68 48,64 44,64 40,64 36,64 32,64 32,60 28,60 
+			"/>
+</g>
+</svg>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.2.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="圖層_1" shape-rendering="crispEdges"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 96 96"
+	 style="enable-background:new 0 0 96 96;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#035E55;}
+	.st1{fill:#05FFB5;}
+	.st2{fill:#17CE98;}
+	.st3{fill:#009A6C;}
+	.st4{opacity:0.1176;fill:#011E1B;enable-background:new    ;}
+</style>
+<g>
+	<rect x="12" y="88" class="st0" width="4" height="4"/>
+	<polygon class="st0" points="28,92 24,92 20,92 16,92 16,96 20,96 24,96 28,96 	"/>
+</g>
+<g>
+	<polygon class="st1" points="20,4 20,8 24,8 28,8 28,4 24,4 	"/>
+	<polygon class="st1" points="4,64 4,60 0,60 0,64 0,68 0,72 4,72 4,68 8,68 8,64 	"/>
+	<polygon class="st1" points="32,76 28,76 24,76 24,72 20,72 16,72 16,68 12,68 8,68 8,72 8,76 12,76 16,76 20,76 20,80 24,80 
+		28,80 32,80 36,80 36,76 	"/>
+	<polygon class="st1" points="48,80 44,80 40,80 36,80 36,84 40,84 44,84 48,84 52,84 52,80 	"/>
+	<polygon class="st1" points="60,84 56,84 52,84 52,88 56,88 60,88 	"/>
+	<rect x="64" y="92" class="st1" width="4" height="4"/>
+</g>
+<g>
+	<polygon class="st2" points="40,4 40,0 36,0 32,0 32,4 36,4 	"/>
+	<rect x="28" y="4" class="st2" width="4" height="4"/>
+	<rect x="12" y="48" class="st2" width="4" height="4"/>
+	<rect x="8" y="52" class="st2" width="4" height="4"/>
+	<rect x="4" y="56" class="st2" width="4" height="4"/>
+	<rect x="28" y="56" class="st2" width="4" height="4"/>
+	<rect x="8" y="64" class="st2" width="4" height="4"/>
+	<polygon class="st2" points="28,68 28,64 28,60 24,60 24,64 24,68 24,72 28,72 	"/>
+	<rect x="48" y="68" class="st2" width="4" height="4"/>
+	<rect x="44" y="72" class="st2" width="4" height="4"/>
+	<rect x="60" y="80" class="st2" width="4" height="4"/>
+	<rect x="76" y="84" class="st2" width="4" height="4"/>
+	<rect x="72" y="88" class="st2" width="4" height="4"/>
+	<polygon class="st2" points="4,92 4,88 8,88 8,84 12,84 16,84 20,84 20,88 24,88 28,88 32,88 32,92 36,92 40,92 44,92 48,92 48,96 
+		52,96 52,92 56,92 60,92 60,96 64,96 64,92 64,88 60,88 56,88 52,88 52,84 48,84 44,84 40,84 36,84 36,80 32,80 28,80 24,80 20,80 
+		20,76 16,76 12,76 8,76 8,72 8,68 4,68 4,72 0,72 0,76 0,80 0,84 0,88 0,92 0,96 4,96 	"/>
+	<rect x="68" y="92" class="st2" width="4" height="4"/>
+</g>
+<g>
+	<polygon class="st3" points="16,96 16,92 12,92 12,88 16,88 16,92 20,92 24,92 28,92 28,96 32,96 36,96 40,96 44,96 48,96 48,92 
+		44,92 40,92 36,92 32,92 32,88 28,88 24,88 20,88 20,84 16,84 12,84 8,84 8,88 4,88 4,92 4,96 8,96 12,96 	"/>
+	<polygon class="st3" points="52,92 52,96 56,96 60,96 60,92 56,92 	"/>
+</g>
+<g>
+	<path class="st4" d="M88,0h-4h-4h-4h-4h-4h-4h-4h-4h-4h-4h-4h-4v4h-4h-4v4h-4h-4h-4V4h4h4h4V0h-4h-4h-4h-4h-4H8H4H0v4v4v4v4v4v4v4
+		v4v4v4v4v4v4v4v4h4v-4h4v-4h4v-4h4v4h-4v4H8v4H4v4h4h4v4h4v4h4h4v-4v-4v-4h4v-4h4v4h-4v4v4v4h-4v4h4h4h4v4h4h4h4h4v4h4h4v-4h4v4h-4
+		v4h4v4h4h4v-4h4v-4h4v4h-4v4h-4v4h4h4h4h4h4h4v-4v-4v-4v-4v-4v-4v-4v-4v-4v-4v-4v-4v-4v-4v-4v-4v-4v-4v-4v-4v-4V8V4V0h-4H88z
+		 M44,76v-4h4v-4h4v4h-4v4H44z"/>
+</g>
+</svg>
