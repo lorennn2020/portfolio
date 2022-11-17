@@ -3348,6 +3348,331 @@
         <!-- Side Project -->
         <section class="secGame">
             <p class="secGame_title font-fff fz-22">Web Game Development</p>
+            
+            <!-- game_frame -->
+            <article id="game_frame">
+                <!-- Menu -->
+                <section id="game_menu">
+                    <div id="menu_bar"></div>
+                    <div id="menu_start" class="hide fontSize_28 font_enterCommand font_FFF">GAME ON !</div>
+                </section>
+                <!-- btn -->
+                <section id="frame_btnBtm" class="hide"> 
+                    <div class="btn_bag c_pointer">
+                        <span class="btn_bagOpen"></span>
+                    </div>
+                    <div class="btn_map c_pointer">
+                    </div>
+                </section>
+
+                <!-- scence:doctors -->
+                <section id="frame_doctors" class="">
+                    <div id="doctors_BG"></div>
+
+                    <div id="doctors_opening"> <!-- 濾鏡效果來源：https://www.cnblogs.com/coco1s/p/16134088.html -->
+                        <img src="assets/img/scene-doctorsBlur.png" alt="scene-doctorsBlur.png">
+                        <svg>
+                        <filter id="pixelate" x="0" y="0">
+                            <feFlood x="0" y="0" height="9" width="6"></feFlood>
+                            <feComposite width="9" height="6"></feComposite>
+                            <feTile result="a"></feTile>
+                            <feComposite in="SourceGraphic" in2="a" operator="in"></feComposite>
+                            <feMorphology operator="dilate" radius="26" class="show"></feMorphology>
+                            <!-- <feMorphology operator="dilate" radius="24" class="show"></feMorphology> -->
+                            <feMorphology operator="dilate" radius="22" class="show"></feMorphology>
+                            <!-- <feMorphology operator="dilate" radius="20" class="show"></feMorphology> -->
+                            <feMorphology operator="dilate" radius="18" class="show"></feMorphology>
+                            <!-- <feMorphology operator="dilate" radius="16" class="show"></feMorphology> -->
+                            <feMorphology operator="dilate" radius="14" class="show"></feMorphology>
+                            <feMorphology operator="dilate" radius="12" class="show"></feMorphology>
+                            <feMorphology operator="dilate" radius="10" class="show"></feMorphology>
+                            <!-- <feMorphology operator="dilate" radius="9" class="show"></feMorphology> -->
+                            <feMorphology operator="dilate" radius="8" class="show"></feMorphology>
+                            <!-- <feMorphology operator="dilate" radius="7" class="show"></feMorphology> -->
+                            <feMorphology operator="dilate" radius="6" class="show"></feMorphology>
+                            <feMorphology operator="dilate" radius="5" class="show"></feMorphology>
+                            <feMorphology operator="dilate" radius="4" class="show"></feMorphology>
+                            <feMorphology operator="dilate" radius="3" class="show"></feMorphology>
+                            <feMorphology operator="dilate" radius="2" class="show"></feMorphology>
+                        </filter>
+                        </svg>
+                    </div>
+                    <div id="doctors_anima01"></div>
+                    <div id="doctors_img01"></div>
+                    
+                    <!-- scence:diagnosis -->
+                    <div id="doctors_homeSad"></div>
+                    <div id="doctors_homeSadBegin"></div>
+                    <div id="doctors_homeSadImg"></div>
+                    <div id="doctors_homeSadAD">
+                        <span id="doctors_homeSadCTA"></span>
+                    </div>
+
+                    <!-- scence: weird doctor dr. Scout -->
+                    <div id="weirdDoctorBG"></div>
+                    <div id="doctors_animaEquip"></div>
+                    <div id="doctors_weirdDoctorEquip"></div>
+                    <div id="doctors_weirdDoctorFront"></div>
+                    <div id="doctors_animaFront"></div>
+                    <div id="doctors_weirdDoctorMain"></div>
+
+                </section>
+                
+                <!-- scence:home -->
+                <section id="frame_home" class="">
+                    <div id="manSitting"></div>
+                    <div id="cat"></div>
+                    <div id="plant" class="c_pointer_e_none"></div>
+                    <div id="stoveFire"></div>
+                    <div id="ingredientsBlock">
+                        <i></i>
+                        <span id="A"></span>
+                        <span id="B"></span>
+                        <span id="animaSea"></span>
+                        <span id="animaDesert"></span>
+                    </div>
+                    <div id="photoS" class="c_pointer"></div>
+                </section>
+
+                <!-- scence:volcano -->
+                <section id="frame_volcano" class="opening">
+                    <!-- TARGET & CONTROL -->
+                    <div id="c_instruction">
+                        <div id="target">
+                            <i id="start_title" class="fontSize_28 font_enterCommand font_758ca9">TARGET</i>
+                            <i id="start_text" class="fontSize_28 font_enterCommand font_E2EFFE">Catch 5 deep sea worms.</i>
+                            <span></span>
+                        </div>
+                        <div id="control">
+                            <i id="start_title" class="fontSize_28 font_enterCommand font_758ca9">CONTROL</i>
+                            <span id="start_keyboard01">
+                                <i class="fontSize_40 font_enterCommand font_022035">W</i>
+                                <i class="fontSize_40 font_enterCommand font_022035">A</i>
+                                <i class="fontSize_40 font_enterCommand font_022035">S</i>
+                                <i class="fontSize_40 font_enterCommand font_022035">D</i>
+                                <i class="fontSize_28 font_enterCommand font_E2EFFE">Use W, A, S, D to move.</i>
+                            </span>
+                            <span id="start_keyboard02">
+                                <i class="fontSize_40 font_enterCommand font_022035">SPACEBAR</i>
+                                <i class="fontSize_28 font_enterCommand font_E2EFFE">Use SPACEBAR to catch.</i>
+                            </span>
+                        </div>
+                        <span id="start_btn">
+                            <i class="fontSize_28 font_enterCommand font_ffe25b">START !</i>
+                        </span>
+                    </div>
+
+                    <div class="seaLight"></div>
+
+                    <!-- seawormCount -->
+                    <span id="seawormCount" class="fontSize_28 font_enterCommand font_E2EFFE">
+                        <span id="blank_Seaworm"></span>
+                        <span id="blank_Seaworm"></span>
+                        <span id="blank_Seaworm"></span>
+                        <span id="blank_Seaworm"></span>
+                        <span id="blank_Seaworm"></span>
+                    </span>
+
+                    <div id="submarine" class="beforeOpening">
+                        <span class="catchedWorm">
+                            <img class="catchedWorm1" src="assets/img/scene-volcano_submarineWarm_1.svg" alt="scene-volcano_submarineWarm_1.svg">
+                            <img class="catchedWorm2" src="assets/img/scene-volcano_submarineWarm_2.svg" alt="scene-volcano_submarineWarm_2.svg">
+                            <img class="catchedWorm3" src="assets/img/scene-volcano_submarineWarm_3.svg" alt="scene-volcano_submarineWarm_3.svg">
+                            <img class="catchedWorm4" src="assets/img/scene-volcano_submarineWarm_4.svg" alt="scene-volcano_submarineWarm_4.svg">
+                            <img class="catchedWorm5" src="assets/img/scene-volcano_submarineWarm_5.svg" alt="scene-volcano_submarineWarm_5.svg">
+                        </span>
+                    </div>
+                    <div class="worm1"></div>
+                    <div class="worm2"></div>
+                    <div class="worm3"></div>
+                    <div class="worm4"></div>
+                    <div class="worm5"></div>
+                    <div class="worm6"></div>
+                    <div class="worm7"></div>
+                    <div class="worm8"></div>
+                    <div class="worm9"></div>
+
+                    <!-- success -->
+                    <div id="success">
+                        <span id="success_bg"></span>
+                        <span id="text" class="fontSize_28 font_enterCommand font_E2EFFE">5 wild deep sea worms were catched!</span>
+                        <span id="capsule">
+                            <i id="capsule_bottom"></i>
+                            <i id="capsule_top"></i>
+                            <i id="capsule_worm"></i>
+                            <i id="capsule_hole"></i>
+                        </span>
+                        <span id="success_btn">
+                            <i class="fontSize_28 font_enterCommand font_ffe25b">Got it !</i>
+                        </span>
+                    </div>
+                </section>
+
+                <!-- scence:desert -->
+                <section id="frame_desert" class="">
+                    <!-- TARGET & CONTROL -->
+                    <div id="c_instruction">
+                        <div id="target">
+                            <i id="start_title" class="fontSize_28 font_enterCommand font_ffd8aa">TARGET</i>
+                            <i id="start_text" class="fontSize_28 font_enterCommand font_FFF">Catch 7 Geobacters from the well.</i>
+                            <span></span>
+                        </div>
+                        <div id="control">
+                            <i id="start_title" class="fontSize_28 font_enterCommand font_ffd8aa">CONTROL</i>
+                            <span id="start_keyboard01">
+                                <i class="fontSize_40 font_enterCommand font_022035">A</i>
+                                <i class="fontSize_40 font_enterCommand font_022035">D</i>
+                                <i class="fontSize_28 font_enterCommand font_FFF">Use A, D to move.</i>
+                            </span>
+                            <span id="start_keyboard02">
+                                <i class="fontSize_40 font_enterCommand font_022035">SPACEBAR</i>
+                                <i class="fontSize_28 font_enterCommand font_FFF">Use SPACEBAR to use the well.</i>
+                            </span>
+                        </div>
+                        <span id="start_btn">
+                            <i class="fontSize_28 font_enterCommand font_FFF">START !</i>
+                        </span>
+                    </div>
+
+                    <div id="desert_sky"></div>
+                    <div id="desert_bg01"></div>
+                    <div id="desert_well"></div>
+                    <div id="desert_bg02"></div>
+                    <div id="desert_bg03"></div>
+                    <div id="desert_sand"></div>
+                    <div id="desert_wind"></div>
+                    <div id="desert_camelCaravan"></div>
+                    <div id="desert_tumbleweed01"></div>
+                    <div id="desert_tumbleweed02"></div>
+                    <div id="desert_tumbleweed03"></div>
+                    <div id="desert_Jeff"><span id="desert_Jeff_drawWater"></span></div>
+
+                    <!-- well inner -->
+                    <div id="well_bg">
+                        <div id="well_bucket" class="">
+                            <!-- <span class="fontSize_28 font_enterCommand font_E2EFFE">Click to rotate the puzzle.<br>Finish the image to catch Geobacter.</span> -->
+                            <span class="fontSize_28 font_enterCommand font_E2EFFE">
+                                <span id="blank_Geobacter"></span>
+                                <span id="blank_Geobacter"></span>
+                                <span id="blank_Geobacter"></span>
+                                <span id="blank_Geobacter"></span>
+                                <span id="blank_Geobacter"></span>
+                                <span id="blank_Geobacter"></span>
+                                <span id="blank_Geobacter"></span>
+                            </span>
+                            <div id="bucket_puzzle01" class="now">
+                                <span id="bucket_click"></span>
+                                <span id="puzzle01_glow"></span>
+                                <i id="puzzle01_1"></i>
+                                <i id="puzzle01_2"></i>
+                            </div>
+                            <div id="bucket_puzzle02" class="">
+                                <span id="puzzle02_glow"></span>
+                            </div>
+                            <div id="bucket_puzzle03" class="">
+                                <span id="puzzle03_glow"></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- success -->
+                    <div id="success">
+                        <span id="success_bg"></span>
+                        <span id="text" class="fontSize_28 font_enterCommand font_FFF">7 wild Geobacter were catched!</span>
+                        <span id="capsule">
+                            <i id="capsule_bottom"></i>
+                            <i id="capsule_top"></i>
+                            <i id="capsule_worm"></i>
+                            <i id="capsule_hole"></i>
+                        </span>
+                        <span id="success_btn">
+                            <i class="fontSize_28 font_enterCommand font_FFF">Got it !</i>
+                        </span>
+                    </div>
+                </section>
+
+                <!-- FinalEnding -->
+                <section id="FinalEnding"></section>
+
+                <!-- Ending Credits -->
+                <section id="Credits">
+                    <div>
+                        <span class="fontSize_28 font_enterCommand font_abc0da">Game Developer</span>
+                        <i class="fontSize_24 font_enterCommand font_E2EFFE">Loren Lin</i>
+                    </div>
+                    <div>
+                        <span class="fontSize_28 font_enterCommand font_abc0da">Programming Consultant</span>
+                        <i class="fontSize_28 font_enterCommand font_E2EFFE">Jamie Yu</i>
+                    </div>
+                    <div>
+                        <span class="fontSize_28 font_enterCommand font_abc0da">Graphics Artists</span>
+                        <i class="fontSize_28 font_enterCommand font_E2EFFE">Loren Lin</i>
+                    </div>
+                    <div>
+                        <span class="fontSize_28 font_enterCommand font_abc0da">Scriptwriter</span>
+                        <i class="fontSize_28 font_enterCommand font_E2EFFE">Loren Lin</i>
+                    </div>
+                    <div>
+                        <span class="fontSize_28 font_enterCommand font_abc0da">Script Consultant</span>
+                        <i class="fontSize_28 font_enterCommand font_E2EFFE">Yuna Hsu</i>
+                    </div>
+                    <div>
+                        <span class="fontSize_28 font_enterCommand font_abc0da">User Experience Design</span>
+                        <i class="fontSize_28 font_enterCommand font_E2EFFE">Loren Lin</i>
+                        <i class="fontSize_28 font_enterCommand font_E2EFFE">Yuna Hsu</i>
+                    </div>
+
+                    <div id="Thanks" class="fontSize_28 font_enterCommand font_E2EFFE">Thanks for playing :D</div>
+                    <div id="restart" class="fontSize_28 font_enterCommand font_ffe25b">RESTART !</div>
+                </section>
+
+                <!-- lightbox -->
+                <article id="game_lightbox">
+                    <div id="bag">
+                        <div id="bag_close" class="c_pointer"></div>
+                        <div class="bag_space L"><span class="bag_capsule"></span></div>
+                        <div class="bag_space R"><span class="bag_capsule"></span></div>
+                        <!-- 測試時開啟 -->
+                        <!-- <div class="bag_space L gotSeaWorm"><span class="bag_capsule"></span></div>
+                        <div class="bag_space R gotDesertWorm"><span class="bag_capsule"></span></div> -->
+                    </div>
+
+                    <div id="map">
+                        <div id="map_close" class="c_pointer"></div>
+                        <div id="location_home" class="here">
+                            <span id="sign_Jeff"></span>
+                        </div>
+                        <div id="location_sea" class="">
+                            <span id="sign_Jeff"></span>
+                        </div>
+                        <div id="location_desert" class="">
+                            <span id="sign_Jeff"></span>
+                        </div>
+                        
+                        <div id="sign_desert"></div>
+                        <div id="sign_sea"></div>
+                        <div id="map_submarine"></div>
+                        <div id="map_jeff"></div>
+
+                        <div id="map_text_bg">
+                            <p id="map_text" class="fontSize_28 font_enterCommand font_FFF"></p>
+                            <span id="map_btn_y" class="fontSize_28 font_enterCommand font_022035">YES</span>
+                            <span id="map_btn_n" class="fontSize_28 font_enterCommand font_022035">NO</span>
+                        </div>
+                    </div>
+
+                    <div id="lightbox_frame">
+                        <!-- pics -->
+                        <div id="photoL"></div>
+                        <!-- texts -->
+                        <div id="font_1">
+                            <span class="fontSize_28 font_enterCommand font_abc0da">Bob, is my closest friend, we have lived together for 4 years since I found him on the street.</span>
+                            <span class="fontSize_28 font_enterCommand font_abc0da">Wish he can stay with me for my rest of life.</span>
+                        </div>
+                    </div>
+                </article>
+            </article>
+
             <p class="secGame_cont font-fff-07 fz-14 fw-lighter wow fadeInDown animated"
                 data-wow-duration="1.5s"
                 data-wow-delay="0s"
@@ -3358,330 +3683,6 @@
                 <br>
                 Jeff必須通過探索世界和收集原料，來製作神奇果凍來讓Bob起死回生，他們能不能從此過上幸福的生活？
             </p>
-            
-        <!-- game_frame -->
-        <article id="game_frame">
-            <!-- Menu -->
-            <section id="game_menu">
-                <div id="menu_bar"></div>
-                <div id="menu_start" class="hide fontSize_28 font_enterCommand font_FFF">GAME ON !</div>
-            </section>
-            <!-- btn -->
-            <section id="frame_btnBtm" class="hide"> 
-                <div class="btn_bag c_pointer">
-                    <span class="btn_bagOpen"></span>
-                </div>
-                <div class="btn_map c_pointer">
-                </div>
-            </section>
-
-            <!-- scence:doctors -->
-            <section id="frame_doctors" class="">
-                <div id="doctors_BG"></div>
-
-                <div id="doctors_opening"> <!-- 濾鏡效果來源：https://www.cnblogs.com/coco1s/p/16134088.html -->
-                    <img src="assets/img/scene-doctorsBlur.png" alt="scene-doctorsBlur.png">
-                    <svg>
-                    <filter id="pixelate" x="0" y="0">
-                        <feFlood x="0" y="0" height="9" width="6"></feFlood>
-                        <feComposite width="9" height="6"></feComposite>
-                        <feTile result="a"></feTile>
-                        <feComposite in="SourceGraphic" in2="a" operator="in"></feComposite>
-                        <feMorphology operator="dilate" radius="26" class="show"></feMorphology>
-                        <!-- <feMorphology operator="dilate" radius="24" class="show"></feMorphology> -->
-                        <feMorphology operator="dilate" radius="22" class="show"></feMorphology>
-                        <!-- <feMorphology operator="dilate" radius="20" class="show"></feMorphology> -->
-                        <feMorphology operator="dilate" radius="18" class="show"></feMorphology>
-                        <!-- <feMorphology operator="dilate" radius="16" class="show"></feMorphology> -->
-                        <feMorphology operator="dilate" radius="14" class="show"></feMorphology>
-                        <feMorphology operator="dilate" radius="12" class="show"></feMorphology>
-                        <feMorphology operator="dilate" radius="10" class="show"></feMorphology>
-                        <!-- <feMorphology operator="dilate" radius="9" class="show"></feMorphology> -->
-                        <feMorphology operator="dilate" radius="8" class="show"></feMorphology>
-                        <!-- <feMorphology operator="dilate" radius="7" class="show"></feMorphology> -->
-                        <feMorphology operator="dilate" radius="6" class="show"></feMorphology>
-                        <feMorphology operator="dilate" radius="5" class="show"></feMorphology>
-                        <feMorphology operator="dilate" radius="4" class="show"></feMorphology>
-                        <feMorphology operator="dilate" radius="3" class="show"></feMorphology>
-                        <feMorphology operator="dilate" radius="2" class="show"></feMorphology>
-                    </filter>
-                    </svg>
-                </div>
-                <div id="doctors_anima01"></div>
-                <div id="doctors_img01"></div>
-                
-                <!-- scence:diagnosis -->
-                <div id="doctors_homeSad"></div>
-                <div id="doctors_homeSadBegin"></div>
-                <div id="doctors_homeSadImg"></div>
-                <div id="doctors_homeSadAD">
-                    <span id="doctors_homeSadCTA"></span>
-                </div>
-
-                <!-- scence: weird doctor dr. Scout -->
-                <div id="weirdDoctorBG"></div>
-                <div id="doctors_animaEquip"></div>
-                <div id="doctors_weirdDoctorEquip"></div>
-                <div id="doctors_weirdDoctorFront"></div>
-                <div id="doctors_animaFront"></div>
-                <div id="doctors_weirdDoctorMain"></div>
-
-            </section>
-            
-            <!-- scence:home -->
-            <section id="frame_home" class="">
-                <div id="manSitting"></div>
-                <div id="cat"></div>
-                <div id="plant" class="c_pointer_e_none"></div>
-                <div id="stoveFire"></div>
-                <div id="ingredientsBlock">
-                    <i></i>
-                    <span id="A"></span>
-                    <span id="B"></span>
-                    <span id="animaSea"></span>
-                    <span id="animaDesert"></span>
-                </div>
-                <div id="photoS" class="c_pointer"></div>
-            </section>
-
-            <!-- scence:volcano -->
-            <section id="frame_volcano" class="opening">
-                <!-- TARGET & CONTROL -->
-                <div id="c_instruction">
-                    <div id="target">
-                        <i id="start_title" class="fontSize_28 font_enterCommand font_758ca9">TARGET</i>
-                        <i id="start_text" class="fontSize_28 font_enterCommand font_E2EFFE">Catch 5 deep sea worms.</i>
-                        <span></span>
-                    </div>
-                    <div id="control">
-                        <i id="start_title" class="fontSize_28 font_enterCommand font_758ca9">CONTROL</i>
-                        <span id="start_keyboard01">
-                            <i class="fontSize_40 font_enterCommand font_022035">W</i>
-                            <i class="fontSize_40 font_enterCommand font_022035">A</i>
-                            <i class="fontSize_40 font_enterCommand font_022035">S</i>
-                            <i class="fontSize_40 font_enterCommand font_022035">D</i>
-                            <i class="fontSize_28 font_enterCommand font_E2EFFE">Use W, A, S, D to move.</i>
-                        </span>
-                        <span id="start_keyboard02">
-                            <i class="fontSize_40 font_enterCommand font_022035">SPACEBAR</i>
-                            <i class="fontSize_28 font_enterCommand font_E2EFFE">Use SPACEBAR to catch.</i>
-                        </span>
-                    </div>
-                    <span id="start_btn">
-                        <i class="fontSize_28 font_enterCommand font_ffe25b">START !</i>
-                    </span>
-                </div>
-
-                <div class="seaLight"></div>
-
-                <!-- seawormCount -->
-                <span id="seawormCount" class="fontSize_28 font_enterCommand font_E2EFFE">
-                    <span id="blank_Seaworm"></span>
-                    <span id="blank_Seaworm"></span>
-                    <span id="blank_Seaworm"></span>
-                    <span id="blank_Seaworm"></span>
-                    <span id="blank_Seaworm"></span>
-                </span>
-
-                <div id="submarine" class="beforeOpening">
-                    <span class="catchedWorm">
-                        <img class="catchedWorm1" src="assets/img/scene-volcano_submarineWarm_1.svg" alt="scene-volcano_submarineWarm_1.svg">
-                        <img class="catchedWorm2" src="assets/img/scene-volcano_submarineWarm_2.svg" alt="scene-volcano_submarineWarm_2.svg">
-                        <img class="catchedWorm3" src="assets/img/scene-volcano_submarineWarm_3.svg" alt="scene-volcano_submarineWarm_3.svg">
-                        <img class="catchedWorm4" src="assets/img/scene-volcano_submarineWarm_4.svg" alt="scene-volcano_submarineWarm_4.svg">
-                        <img class="catchedWorm5" src="assets/img/scene-volcano_submarineWarm_5.svg" alt="scene-volcano_submarineWarm_5.svg">
-                    </span>
-                </div>
-                <div class="worm1"></div>
-                <div class="worm2"></div>
-                <div class="worm3"></div>
-                <div class="worm4"></div>
-                <div class="worm5"></div>
-                <div class="worm6"></div>
-                <div class="worm7"></div>
-                <div class="worm8"></div>
-                <div class="worm9"></div>
-
-                <!-- success -->
-                <div id="success">
-                    <span id="success_bg"></span>
-                    <span id="text" class="fontSize_28 font_enterCommand font_E2EFFE">5 wild deep sea worms were catched!</span>
-                    <span id="capsule">
-                        <i id="capsule_bottom"></i>
-                        <i id="capsule_top"></i>
-                        <i id="capsule_worm"></i>
-                        <i id="capsule_hole"></i>
-                    </span>
-                    <span id="success_btn">
-                        <i class="fontSize_28 font_enterCommand font_ffe25b">Got it !</i>
-                    </span>
-                </div>
-            </section>
-
-            <!-- scence:desert -->
-            <section id="frame_desert" class="">
-                <!-- TARGET & CONTROL -->
-                <div id="c_instruction">
-                    <div id="target">
-                        <i id="start_title" class="fontSize_28 font_enterCommand font_ffd8aa">TARGET</i>
-                        <i id="start_text" class="fontSize_28 font_enterCommand font_FFF">Catch 7 Geobacters from the well.</i>
-                        <span></span>
-                    </div>
-                    <div id="control">
-                        <i id="start_title" class="fontSize_28 font_enterCommand font_ffd8aa">CONTROL</i>
-                        <span id="start_keyboard01">
-                            <i class="fontSize_40 font_enterCommand font_022035">A</i>
-                            <i class="fontSize_40 font_enterCommand font_022035">D</i>
-                            <i class="fontSize_28 font_enterCommand font_FFF">Use A, D to move.</i>
-                        </span>
-                        <span id="start_keyboard02">
-                            <i class="fontSize_40 font_enterCommand font_022035">SPACEBAR</i>
-                            <i class="fontSize_28 font_enterCommand font_FFF">Use SPACEBAR to use the well.</i>
-                        </span>
-                    </div>
-                    <span id="start_btn">
-                        <i class="fontSize_28 font_enterCommand font_FFF">START !</i>
-                    </span>
-                </div>
-
-                <div id="desert_sky"></div>
-                <div id="desert_bg01"></div>
-                <div id="desert_well"></div>
-                <div id="desert_bg02"></div>
-                <div id="desert_bg03"></div>
-                <div id="desert_sand"></div>
-                <div id="desert_wind"></div>
-                <div id="desert_camelCaravan"></div>
-                <div id="desert_tumbleweed01"></div>
-                <div id="desert_tumbleweed02"></div>
-                <div id="desert_tumbleweed03"></div>
-                <div id="desert_Jeff"><span id="desert_Jeff_drawWater"></span></div>
-
-                <!-- well inner -->
-                <div id="well_bg">
-                    <div id="well_bucket" class="">
-                        <!-- <span class="fontSize_28 font_enterCommand font_E2EFFE">Click to rotate the puzzle.<br>Finish the image to catch Geobacter.</span> -->
-                        <span class="fontSize_28 font_enterCommand font_E2EFFE">
-                            <span id="blank_Geobacter"></span>
-                            <span id="blank_Geobacter"></span>
-                            <span id="blank_Geobacter"></span>
-                            <span id="blank_Geobacter"></span>
-                            <span id="blank_Geobacter"></span>
-                            <span id="blank_Geobacter"></span>
-                            <span id="blank_Geobacter"></span>
-                        </span>
-                        <div id="bucket_puzzle01" class="now">
-                            <span id="bucket_click"></span>
-                            <span id="puzzle01_glow"></span>
-                            <i id="puzzle01_1"></i>
-                            <i id="puzzle01_2"></i>
-                        </div>
-                        <div id="bucket_puzzle02" class="">
-                            <span id="puzzle02_glow"></span>
-                        </div>
-                        <div id="bucket_puzzle03" class="">
-                            <span id="puzzle03_glow"></span>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- success -->
-                <div id="success">
-                    <span id="success_bg"></span>
-                    <span id="text" class="fontSize_28 font_enterCommand font_FFF">7 wild Geobacter were catched!</span>
-                    <span id="capsule">
-                        <i id="capsule_bottom"></i>
-                        <i id="capsule_top"></i>
-                        <i id="capsule_worm"></i>
-                        <i id="capsule_hole"></i>
-                    </span>
-                    <span id="success_btn">
-                        <i class="fontSize_28 font_enterCommand font_FFF">Got it !</i>
-                    </span>
-                </div>
-            </section>
-
-            <!-- FinalEnding -->
-            <section id="FinalEnding"></section>
-
-            <!-- Ending Credits -->
-            <section id="Credits">
-                <div>
-                    <span class="fontSize_28 font_enterCommand font_abc0da">Game Developer</span>
-                    <i class="fontSize_24 font_enterCommand font_E2EFFE">Loren Lin</i>
-                </div>
-                <div>
-                    <span class="fontSize_28 font_enterCommand font_abc0da">Programming Consultant</span>
-                    <i class="fontSize_28 font_enterCommand font_E2EFFE">Jamie Yu</i>
-                </div>
-                <div>
-                    <span class="fontSize_28 font_enterCommand font_abc0da">Graphics Artists</span>
-                    <i class="fontSize_28 font_enterCommand font_E2EFFE">Loren Lin</i>
-                </div>
-                <div>
-                    <span class="fontSize_28 font_enterCommand font_abc0da">Scriptwriter</span>
-                    <i class="fontSize_28 font_enterCommand font_E2EFFE">Loren Lin</i>
-                </div>
-                <div>
-                    <span class="fontSize_28 font_enterCommand font_abc0da">Script Consultant</span>
-                    <i class="fontSize_28 font_enterCommand font_E2EFFE">Yuna Hsu</i>
-                </div>
-                <div>
-                    <span class="fontSize_28 font_enterCommand font_abc0da">User Experience Design</span>
-                    <i class="fontSize_28 font_enterCommand font_E2EFFE">Loren Lin</i>
-                    <i class="fontSize_28 font_enterCommand font_E2EFFE">Yuna Hsu</i>
-                </div>
-
-                <div id="Thanks" class="fontSize_28 font_enterCommand font_E2EFFE">Thanks for playing :D</div>
-                <div id="restart" class="fontSize_28 font_enterCommand font_ffe25b">RESTART !</div>
-            </section>
-
-            <!-- lightbox -->
-            <article id="game_lightbox">
-                <div id="bag">
-                    <div id="bag_close" class="c_pointer"></div>
-                    <div class="bag_space L"><span class="bag_capsule"></span></div>
-                    <div class="bag_space R"><span class="bag_capsule"></span></div>
-                    <!-- 測試時開啟 -->
-                    <!-- <div class="bag_space L gotSeaWorm"><span class="bag_capsule"></span></div>
-                    <div class="bag_space R gotDesertWorm"><span class="bag_capsule"></span></div> -->
-                </div>
-
-                <div id="map">
-                    <div id="map_close" class="c_pointer"></div>
-                    <div id="location_home" class="here">
-                        <span id="sign_Jeff"></span>
-                    </div>
-                    <div id="location_sea" class="">
-                        <span id="sign_Jeff"></span>
-                    </div>
-                    <div id="location_desert" class="">
-                        <span id="sign_Jeff"></span>
-                    </div>
-                    
-                    <div id="sign_desert"></div>
-                    <div id="sign_sea"></div>
-                    <div id="map_submarine"></div>
-                    <div id="map_jeff"></div>
-
-                    <div id="map_text_bg">
-                        <p id="map_text" class="fontSize_28 font_enterCommand font_FFF"></p>
-                        <span id="map_btn_y" class="fontSize_28 font_enterCommand font_022035">YES</span>
-                        <span id="map_btn_n" class="fontSize_28 font_enterCommand font_022035">NO</span>
-                    </div>
-                </div>
-
-                <div id="lightbox_frame">
-                    <!-- pics -->
-                    <div id="photoL"></div>
-                    <!-- texts -->
-                    <div id="font_1">
-                        <span class="fontSize_28 font_enterCommand font_abc0da">Bob, is my closest friend, we have lived together for 4 years since I found him on the street.</span>
-                        <span class="fontSize_28 font_enterCommand font_abc0da">Wish he can stay with me for my rest of life.</span>
-                    </div>
-                </div>
-            </article>
-        </article>
 
         </section>
 

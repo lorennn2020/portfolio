@@ -1106,7 +1106,7 @@ div.swiper-button-disabled{
     position: relative;
     z-index: 1;
     height: auto;
-    padding: 100px 5% 100px 5%;
+    padding: 100px 5% 120px 5%;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -1114,10 +1114,11 @@ div.swiper-button-disabled{
 }
 .secGame_title{}
 .secGame_cont{
-    width: 15%;
-    position: absolute;
-    top: 220px;
+    position: relative;
+    width: 85%;
+    top: 40px;
     line-height: 24px;
+    margin: 0 auto;
 }
 .secGame .video_wrap{
     position: relative;
